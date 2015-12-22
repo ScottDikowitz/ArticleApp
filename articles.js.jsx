@@ -25,11 +25,12 @@ var Articles = React.createClass({
   },
 
   render: function(){
-    return <div>
+    return <div><ul>
       {this.state.articles.map(function(el){
-        return <li key={el.id}>{el.title}</li>;
+        return <li className='article-line' key={el.id}>{el.title}</li>;
 
       })}
+    </ul>
     </div>;
   }
 });

@@ -1,0 +1,15 @@
+div, li, ul, body {
+  font: inherit;
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  font-size: inherit;
+  color: inherit;
+  font-family: sans-serif;
+}
+
+ul {
+  list-style: none;
+}
