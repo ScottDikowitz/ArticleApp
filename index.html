@@ -1,0 +1,20 @@
+<html>
+  <head>
+    <h1>HEAD</h1>
+    <!-- this should be in your HTML -->
+    <link rel="stylesheet" href="articles.css" media="screen" title="no title" charset="utf-8">
+    <script src="https://fb.me/react-0.13.3.js" charset="utf-8"></script>
+    <script src="https://fb.me/JSXTransformer-0.13.3.js" charset="utf-8"></script>
+    <script type="text/jsx" src="articles.js.jsx"></script>
+
+    <script type="text/jsx">
+    (function(){
+      React.render(<Articles />, document.getElementById('articles'));
+    })();
+    </script>
+  </head>
+  <body>
+    <div id="articles">
+    </div>
+  </body>
+</html>
