@@ -1,7 +1,8 @@
-div, li, ul, body {
+div, li, ul, body, a {
   font: inherit;
   margin: 0px;
   padding: 0px;
+  text-decoration: none;
 }
 
 body {
@@ -19,6 +20,42 @@ ul {
   border-bottom: 1px solid #ccc;
 }
 
-.header-list > li {
+a {
+  /*display: block;*/
+}
+
+.header-list >  li {
   float: left;
+  padding: 20px;
+}
+
+.group::after {
+  display: block;
+  content: "";
+  clear: both;
+}
+
+.title {
+  width: 500px;
+  float: left;
+}
+
+.details {
+  float: right;
+}
+
+.header-list > li:first-child {
+  width: 500px;
+  padding-left: 10px;
+}
+
+.header {
+  width: 900px;
+  margin: auto;
+  padding: 10px;
+}
+
+.grid {
+  width: 900px;
+  margin: auto;
 }
