@@ -13,3 +13,12 @@ body {
 ul {
   list-style: none;
 }
+
+.article-line {
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+.header-list > li {
+  float: left;
+}
