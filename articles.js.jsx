@@ -27,7 +27,7 @@ var Articles = React.createClass({
   render: function(){
     return <div><ul>
       {this.state.articles.map(function(el){
-        return <li className='article-line' key={el.id}>{el.title}</li>;
+        return <ArticleLine article={el} key={el.id}/>;
 
       })}
     </ul>
