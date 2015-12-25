@@ -3,11 +3,13 @@ div, li, ul, body, a {
   margin: 0px;
   padding: 0px;
   text-decoration: none;
+  background: transparent;
+  color: inherit;
 }
 
 body {
   font-size: inherit;
-  color: inherit;
+  text-align: inherit;
   font-family: sans-serif;
 }
 
@@ -24,9 +26,19 @@ a {
   /*display: block;*/
 }
 
-.header-list >  li {
+.header-list > li {
   float: left;
+  border-right: 1px solid #fff;
+  /*padding: 20px;*/
+}
+
+.header-list a {
   padding: 20px;
+  display: block;
+}
+
+.header-list li:nth-child(2) a {
+  padding: 20px 50px;
 }
 
 .group::after {
@@ -35,13 +47,26 @@ a {
   clear: both;
 }
 
+.words {
+  width: 80px;
+}
+
 .title {
   width: 500px;
   float: left;
 }
 
+.author {
+  width: 150px;
+}
+
 .details {
-  float: right;
+  float: left;
+}
+
+.details > div {
+  float: left;
+  text-align: center;
 }
 
 .header-list > li:first-child {
@@ -52,7 +77,8 @@ a {
 .header {
   width: 900px;
   margin: auto;
-  padding: 10px;
+  background: #970B23;
+  color: #fff;
 }
 
 .grid {
