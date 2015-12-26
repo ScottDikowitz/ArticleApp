@@ -59,6 +59,38 @@
       ArticleStore.emit(CHANGE_EVENT);
     },
 
+    mergeSort2: function(arr){
+
+      if (arr.length <= 1)
+        return arr;
+
+      var middle = Math.floor(arr.length / 2);
+
+      var left_half = arr.slice(0, middle);
+      var right_half = arr.slice(middle);
+
+      var merge = function(left, right) {
+        var result = [];
+
+        while (left.length > 0 && right.length > 0) {
+
+          if (left[0].words >= right[0].words)
+            result.push(left.shift());
+          else
+            result.push(right.shift());
+        }
+
+        return result.concat(left).concat(right);
+      };
+
+      return merge(ArticleStore.mergeSort2(left_half), ArticleStore.mergeSort2(right_half));
+    },
+
+    sortWords: function(){
+      _articles = ArticleStore.mergeSort2(_articles);
+      ArticleStore.emit(CHANGE_EVENT);
+    },
+
     moreArticles: function(articles){
       _articles = _articles.concat(articles);
     },
