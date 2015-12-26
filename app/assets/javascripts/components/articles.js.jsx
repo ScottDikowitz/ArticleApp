@@ -8,7 +8,7 @@ var Articles = React.createClass({
 
     var that = this;
     var request = new XMLHttpRequest();
-    request.open('GET', './data/articles.json', true);
+    request.open('GET', './assets/data/articles.json', true);
     request.onload = function() {
       console.log("1234");
         if (request.status >= 200 && request.status < 400) {
@@ -22,6 +22,7 @@ var Articles = React.createClass({
 
   componentDidMount: function(){
     this.getJson();
+    // ApiUtil.fetchArticles();
   },
 
   render: function(){
