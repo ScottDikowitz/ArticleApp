@@ -1,12 +1,18 @@
 var Articles = React.createClass({
 
   getInitialState: function(){
-    return ({articles: [] });
+    return ({articles: [], page: 1 });
   },
 
   _changed: function(){
 
-    this.setState({articles: ArticleStore.all()});
+    this.setState({articles: ArticleStore.page(this.state.page)});
+  },
+
+  turnPage: function(){
+    this.setState({articles: ArticleStore.page(this.state.page + 1)});
+    this.setState({page: this.state.page + 1});
+
   },
 
   componentDidMount: function(){
@@ -26,6 +32,7 @@ var Articles = React.createClass({
 
       })}
     </ul>
+    <button onClick={this.turnPage}>load more</button>
     </div>;
   }
 });

@@ -1,16 +1,13 @@
 var ApiUtil = window.ApiUtil = {
 
   fetchArticles: function(){
-    // var that = this;
-    var request = new XMLHttpRequest();
-    request.open('GET', './assets/data/articles.json', true);
-    request.onload = function() {
-        if (request.status >= 200 && request.status < 400) {
-        var articles = JSON.parse(request.responseText);
+    $.ajax ({
+      url: './assets/data/articles.json',
+      type: 'GET',
+      dataType: 'json',
+      success: function(articles) {
         ApiActions.receiveAll(articles);
-
       }
-    };
-    request.send();
+    });
   }
 };

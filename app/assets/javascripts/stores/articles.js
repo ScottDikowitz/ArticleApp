@@ -18,6 +18,10 @@
       return _articles.slice();
     },
 
+    page: function(num){
+      return _articles.slice(0, 10*num);
+    },
+
     totalCount: function () {
       return _articles.length || 0;
     },
