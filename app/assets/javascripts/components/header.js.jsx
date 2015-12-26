@@ -8,6 +8,10 @@ wordSort: function(){
   ArticleStore.sortWords();
 },
 
+timeSort: function(){
+  ArticleStore.sortTime();
+},
+
 render: function(){
   return <div>
     <header className="header group">
@@ -15,7 +19,7 @@ render: function(){
           <li><a href="#">Unpublished Articles</a></li>
           <li><a onClick={this.authorSort} href="#">Author</a></li>
           <li><a onClick={this.wordSort} href="#">Words</a></li>
-          <li><a href="#">Submitted</a></li>
+          <li><a onClick={this.timeSort} href="#">Submitted</a></li>
         </ul>
     </header>
   <Articles/>

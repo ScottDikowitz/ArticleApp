@@ -76,6 +76,17 @@
       ArticleStore.emit(CHANGE_EVENT);
     },
 
+    sortTime: function(){
+      var comparator = function(left, right){
+        if (Date.parse(left[0].publish_at) >= Date.parse(right[0].publish_at))
+          return true;
+        else
+          return false;
+      };
+      _articles = ArticleStore.mergeSort(_articles, comparator);
+      ArticleStore.emit(CHANGE_EVENT);
+    },
+
     moreArticles: function(articles){
       _articles = _articles.concat(articles);
     },
@@ -95,10 +106,10 @@
           ArticleStore.resetArtices(payload.articles);
           ArticleStore.emit(CHANGE_EVENT);
           break;
-          case "MORE_ARTICLES_RECEIVED":
-            ArticleStore.moreArticles(payload.articles);
-            ArticleStore.emit(CHANGE_EVENT);
-            break;
+        case "MORE_ARTICLES_RECEIVED":
+          ArticleStore.moreArticles(payload.articles);
+          ArticleStore.emit(CHANGE_EVENT);
+          break;
 
       }
     }),
