@@ -32,7 +32,7 @@ var Articles = React.createClass({
 
       })}
     </ul>
-    <button onClick={this.turnPage}>load more</button>
+    <button className="load-more" onClick={this.turnPage}>load more</button>
     </div>;
   }
 });

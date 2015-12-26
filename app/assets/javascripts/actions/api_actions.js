@@ -5,5 +5,12 @@ var ApiActions = window.ApiActions = {
       actionType: "ARTICLES_RECEIVED",
       articles: articles
     });
+  },
+
+  moreArticles: function(articles){
+    AppDispatcher.dispatch({
+      actionType: "MORE_ARTICLES_RECEIVED",
+      articles: articles
+    });
   }
 };

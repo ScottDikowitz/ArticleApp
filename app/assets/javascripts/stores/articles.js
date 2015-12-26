@@ -1,7 +1,7 @@
 (function (root) {
   var _search_results = {articles: []};
   var CHANGE_EVENT = "change";
-
+  var fetched = false;
   root.ArticleStore = $.extend({}, EventEmitter.prototype, {
 
 
@@ -19,7 +19,16 @@
     },
 
     page: function(num){
+      // debugger;
+      if (_articles.slice(0, 100).length === _articles.length && fetched === false){
+        ApiUtil.fetchMoreArticles();
+        fetched = true;
+      }
       return _articles.slice(0, 10*num);
+    },
+
+    moreArticles: function(articles){
+      _articles = _articles.concat(articles);
     },
 
     totalCount: function () {
@@ -37,6 +46,10 @@
           ArticleStore.resetArtices(payload.articles);
           ArticleStore.emit(CHANGE_EVENT);
           break;
+          case "MORE_ARTICLES_RECEIVED":
+            ArticleStore.moreArticles(payload.articles);
+            ArticleStore.emit(CHANGE_EVENT);
+            break;
 
       }
     }),

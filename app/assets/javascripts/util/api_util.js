@@ -9,5 +9,16 @@ var ApiUtil = window.ApiUtil = {
         ApiActions.receiveAll(articles);
       }
     });
+  },
+
+  fetchMoreArticles: function(){
+    $.ajax ({
+      url: './assets/data/more-articles.json',
+      type: 'GET',
+      dataType: 'json',
+      success: function(articles) {
+        ApiActions.moreArticles(articles);
+      }
+    });
   }
 };
