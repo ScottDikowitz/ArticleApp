@@ -27,40 +27,19 @@
       return _articles.slice(0, 10*num);
     },
 
-    mergeSort: function(arr){
-
-      if (arr.length <= 1)
-        return arr;
-
-      var middle = Math.floor(arr.length / 2);
-
-      var left_half = arr.slice(0, middle);
-      var right_half = arr.slice(middle);
-
-      var merge = function(left, right) {
-        var result = [];
-
-        while (left.length > 0 && right.length > 0) {
-
-          if (left[0].profile.first_name < right[0].profile.first_name)
-            result.push(left.shift());
-          else
-            result.push(right.shift());
-        }
-
-        return result.concat(left).concat(right);
-      };
-
-      return merge(ArticleStore.mergeSort(left_half), ArticleStore.mergeSort(right_half));
-    },
-
     sortNames: function(){
-      _articles = ArticleStore.mergeSort(_articles);
+
+      var comparator = function(left, right){
+        if (left[0].profile.first_name < right[0].profile.first_name)
+          return true;
+        else
+          return false;
+      };
+      _articles = ArticleStore.mergeSort(_articles, comparator);
       ArticleStore.emit(CHANGE_EVENT);
     },
 
-    mergeSort2: function(arr){
-
+    mergeSort: function(arr, comparator){
       if (arr.length <= 1)
         return arr;
 
@@ -69,12 +48,12 @@
       var left_half = arr.slice(0, middle);
       var right_half = arr.slice(middle);
 
-      var merge = function(left, right) {
+      var merge = function(left, right, comparator) {
         var result = [];
-
         while (left.length > 0 && right.length > 0) {
 
-          if (left[0].words >= right[0].words)
+          // if (left[0].words >= right[0].words)
+          if (comparator(left, right))
             result.push(left.shift());
           else
             result.push(right.shift());
@@ -82,12 +61,18 @@
 
         return result.concat(left).concat(right);
       };
-
-      return merge(ArticleStore.mergeSort2(left_half), ArticleStore.mergeSort2(right_half));
+      return merge(ArticleStore.mergeSort(left_half, comparator), ArticleStore.mergeSort(right_half, comparator), comparator);
     },
 
     sortWords: function(){
-      _articles = ArticleStore.mergeSort2(_articles);
+
+      var comparator = function(left, right){
+        if (left[0].words >= right[0].words)
+          return true;
+        else
+          return false;
+      };
+      _articles = ArticleStore.mergeSort(_articles, comparator);
       ArticleStore.emit(CHANGE_EVENT);
     },
 
