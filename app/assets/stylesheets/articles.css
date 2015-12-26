@@ -18,7 +18,7 @@ ul {
 }
 
 .article-line {
-  padding: 10px;
+  /*padding: 10px;*/
   border-bottom: 1px solid #ccc;
 }
 
@@ -56,7 +56,20 @@ body {
 }
 
 .header-list li:nth-child(2) a {
-  padding: 20px 50px;
+  padding: 20px 62px;
+}
+
+.header-list li:nth-child(3) a {
+  padding: 20px 27px;
+}
+
+.header-list li:nth-child(4) {
+  border: 0px;
+}
+
+.header-list li:nth-child(4) a {
+  padding: 20px 39px;
+  border-right: 0px;
 }
 
 .group::after {
@@ -70,8 +83,9 @@ body {
 }
 
 .title {
-  width: 500px;
-  float: left;
+  width: 450px;
+  /*float: left;*/
+  /*padding: 10px;*/
 }
 
 .author {
@@ -80,15 +94,24 @@ body {
 
 .details {
   float: left;
+  width: 100%;
+  /*height: 100%;*/
+}
+
+.time-ago {
+  width: 134px;
 }
 
 .details > div {
   float: left;
   text-align: center;
+  border-left: 1px solid #ccc;
+  padding: 10px;
+  height: 28px;
 }
 
 .header-list > li:first-child {
-  width: 500px;
+  width: 461px;
   padding-left: 10px;
 }
 
@@ -102,4 +125,9 @@ body {
 .grid {
   width: 900px;
   margin: auto;
+}
+
+.grid > li {
+  border-left: 1px solid #ccc;
+  border-right: 1px solid #ccc;
 }
