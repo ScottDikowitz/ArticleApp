@@ -2,6 +2,8 @@
   var articles = [];
   var CHANGE_EVENT = "change";
   var fetched = false;
+  var _page = 1;
+
   root.ArticleStore = $.extend({}, EventEmitter.prototype, {
 
 
@@ -18,8 +20,17 @@
       return _articles.slice();
     },
 
+    numShowing: function(){
+      return _articles.slice(0, 10*_page).length;
+    },
+
+    getPage: function(){
+      return _articles.slice(0, 10*_page);
+    },
+
     page: function(num){
       // debugger;
+      _page = num;
       if (_articles.slice(0, 10*num).length === _articles.length && fetched === false){
         ApiUtil.fetchMoreArticles();
         fetched = true;
@@ -108,6 +119,10 @@
           break;
         case "MORE_ARTICLES_RECEIVED":
           ArticleStore.moreArticles(payload.articles);
+          ArticleStore.emit(CHANGE_EVENT);
+          break;
+        case "TURN_PAGE":
+          ArticleStore.page(payload.page);
           ArticleStore.emit(CHANGE_EVENT);
           break;
 

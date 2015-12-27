@@ -6,11 +6,12 @@ var Articles = React.createClass({
 
   _changed: function(){
 
-    this.setState({articles: ArticleStore.page(this.state.page)});
+    this.setState({articles: ArticleStore.getPage()});
   },
 
   turnPage: function(){
-    this.setState({articles: ArticleStore.page(this.state.page + 1)});
+    // this.setState({articles: ArticleStore.page(this.state.page + 1)});
+    ApiActions.turnPage(this.state.page + 1);
     this.setState({page: this.state.page + 1});
 
   },

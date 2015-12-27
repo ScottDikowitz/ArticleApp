@@ -12,5 +12,12 @@ var ApiActions = window.ApiActions = {
       actionType: "MORE_ARTICLES_RECEIVED",
       articles: articles
     });
+  },
+
+  turnPage: function(page){
+    AppDispatcher.dispatch({
+      actionType: "TURN_PAGE",
+      page: page
+    });
   }
 };
