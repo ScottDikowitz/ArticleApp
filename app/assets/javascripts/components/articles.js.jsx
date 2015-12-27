@@ -17,8 +17,25 @@ var Articles = React.createClass({
 
   componentDidMount: function(){
     // this.getJson();
+    var that = this;
     ArticleStore.addChangeHandler(this._changed);
     ApiUtil.fetchArticles();
+    setTimeout(function(){that.checkCookie();}, 0);
+  },
+
+  checkCookie: function(){
+    switch (document.cookie.split('=')[1]) {
+
+      case "words":
+        ArticleStore.sortWords();
+        break;
+      case "author":
+        ArticleStore.sortNames();
+        break;
+      case "time":
+        ArticleStore.sortTime();
+        break;
+      }
   },
 
   componentWillUnmount: function(){
