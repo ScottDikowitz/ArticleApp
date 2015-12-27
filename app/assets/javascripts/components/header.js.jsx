@@ -1,19 +1,25 @@
 var Header = React.createClass({
 
 authorSort: function(){
-  ArticleStore.sortNames();
-  document.cookie="sort=author";
+  if (document.cookie.split('=')[1] !== "author"){
+    ArticleStore.sortNames();
+    document.cookie="sort=author";
+  }
 },
 
 wordSort: function(){
-  ArticleStore.sortWords();
-  document.cookie="sort=words";
-  var x = document.cookie;
+  if (document.cookie.split('=')[1] !== "words"){
+    ArticleStore.sortWords();
+    document.cookie="sort=words";
+    var x = document.cookie;
+  }
 },
 
 timeSort: function(){
-  ArticleStore.sortTime();
-  document.cookie="sort=time";
+  if (document.cookie.split('=')[1] !== "time"){
+    ArticleStore.sortTime();
+    document.cookie="sort=time";
+  }
 },
 
 render: function(){
