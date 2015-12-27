@@ -28,7 +28,7 @@ ul {
 
 .header-list > li {
   float: left;
-  border-right: 1px solid #fff;
+  border-right: 1px solid #ccc;
   /*padding: 20px;*/
 }
 
@@ -51,17 +51,25 @@ body {
   padding-bottom: 80px;
 }
 
+.header {
+  width: 900px;
+  margin: auto;
+  background: linear-gradient(#B90B2C, #7E2633);
+  color: #fff;
+  font-weight: bold;
+}
+
 .header-list a {
   padding: 20px;
   display: block;
 }
 
 .header-list li:nth-child(2) a {
-  padding: 20px 62px;
+  padding: 20px 59px;
 }
 
 .header-list li:nth-child(3) a {
-  padding: 20px 27px;
+  padding: 20px 25px;
 }
 
 .header-list li:nth-child(4) {
@@ -69,7 +77,7 @@ body {
 }
 
 .header-list li:nth-child(4) a {
-  padding: 20px 39px;
+  padding: 20px 35px;
   border-right: 0px;
 }
 
@@ -128,12 +136,7 @@ body {
   padding-left: 10px;
 }
 
-.header {
-  width: 900px;
-  margin: auto;
-  background: #970B23;
-  color: #fff;
-}
+
 
 .grid {
   width: 900px;
@@ -141,7 +144,7 @@ body {
 }
 
 .grid > li {
-  border-left: 1px solid #ccc;
+  /*border-left: 1px solid #ccc;*/
   border-right: 1px solid #ccc;
 }
 
