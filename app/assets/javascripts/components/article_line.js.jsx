@@ -24,7 +24,9 @@ var ArticleLine = React.createClass({
     return <li className='article-line group'>
 
       <div className="details">
+
         <div className="title">
+          <img className="pic" src={this.props.article.image}/>
         <a href={this.props.article.url}>{this.props.article.title}</a>
         </div>
         <div className="author">

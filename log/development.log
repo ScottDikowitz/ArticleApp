@@ -14295,3 +14295,1686 @@ Started GET "/assets/data/articles.json" for 127.0.0.1 at 2015-12-27 01:56:02 -0
 
 
 Started GET "/assets/data/more-articles.json" for 127.0.0.1 at 2015-12-27 01:56:06 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2015-12-27 01:58:34 -0500
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 798ms (Views: 784.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/articles.self-725d0469d87dc8d633271aba75e89b400e26cdb30b9ef4038ddaeadb12ed6a71.css?body=1" for 127.0.0.1 at 2015-12-27 01:58:35 -0500
+
+
+Started GET "/assets/static_pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-12-27 01:58:35 -0500
+
+
+Started GET "/assets/development/react.self-93bc62cb6c7b74ee7e5a2fcf623f3abbd365440bf90eba740c625f159078aa82.js?body=1" for 127.0.0.1 at 2015-12-27 01:58:35 -0500
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2015-12-27 01:58:35 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-12-27 01:58:35 -0500
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for 127.0.0.1 at 2015-12-27 01:58:35 -0500
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for 127.0.0.1 at 2015-12-27 01:58:35 -0500
+
+
+Started GET "/assets/react_ujs.self-c42e5ee44bcda6910afca6fb40f99d9963074b3aefe72365ce90c24312e73b2b.js?body=1" for 127.0.0.1 at 2015-12-27 01:58:35 -0500
+
+
+Started GET "/assets/components/articles.self-4e125f4a225cd7de3a846bcbeaad4f8fd22f255964b5ee404dd5473886985a8f.js?body=1" for 127.0.0.1 at 2015-12-27 01:58:35 -0500
+
+
+Started GET "/assets/components/header.self-cab53289a27df193f5ae07a6b08d66a7ff2a6874695be195d0756258ac388ef8.js?body=1" for 127.0.0.1 at 2015-12-27 01:58:35 -0500
+
+
+Started GET "/assets/components/article_line.self-9769d7e7d2bf8cbeda4f00bc62be3b50f411794b1eae9f8e7ca3e0481bd49470.js?body=1" for 127.0.0.1 at 2015-12-27 01:58:35 -0500
+
+
+Started GET "/assets/components.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for 127.0.0.1 at 2015-12-27 01:58:35 -0500
+
+
+Started GET "/assets/eventemitter.self-b7e538902dfb3dce50e80598efaa7b435781b7bc8fe936a7aca64a6f2699d411.js?body=1" for 127.0.0.1 at 2015-12-27 01:58:35 -0500
+
+
+Started GET "/assets/flux.self-c2206dc953bbad23c0ee331879560545a4ec58709c89fe78db57a156ec19c08f.js?body=1" for 127.0.0.1 at 2015-12-27 01:58:35 -0500
+
+
+Started GET "/assets/articleapp.self-55fd94261daa72b56bdfe326783b8bf1bfcd1e819030dc57f67c4a15070a6383.js?body=1" for 127.0.0.1 at 2015-12-27 01:58:35 -0500
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-12-27 01:58:35 -0500
+
+
+Started GET "/assets/actions/api_actions.self-fbb8f50900aaf76af6a1c35fa017a65adbcc248f379ed334d875ddc5d4c446f6.js?body=1" for 127.0.0.1 at 2015-12-27 01:58:35 -0500
+
+
+Started GET "/assets/dispatcher/dispatcher.self-df4b2118c83e53bfcd046d9391e85547aa2f41e5a424adaa5c8d907b9675777f.js?body=1" for 127.0.0.1 at 2015-12-27 01:58:35 -0500
+
+
+Started GET "/assets/stores/articles.self-ce4b87b5d5cedd253e34585eb25add66a819cd5beed3130a1f3c12f4b2b98e8b.js?body=1" for 127.0.0.1 at 2015-12-27 01:58:35 -0500
+
+
+Started GET "/assets/util/api_util.self-470353018f350df7ee95a205afbe3d3132d7e5ce8b028c4e1aa5515f634dcb12.js?body=1" for 127.0.0.1 at 2015-12-27 01:58:35 -0500
+
+
+Started GET "/assets/application.self-a1a74291c4c48f2f663a025ffa678498d6448b849a2d74c0ca25e39ee192c0a7.js?body=1" for 127.0.0.1 at 2015-12-27 01:58:35 -0500
+
+
+Started GET "/assets/data/articles.json" for 127.0.0.1 at 2015-12-27 01:58:35 -0500
+
+
+Started GET "/assets/data/more-articles.json" for 127.0.0.1 at 2015-12-27 01:58:41 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2015-12-27 14:25:11 -0500
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 684ms (Views: 669.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/articles.self-05237ab8c4e1cb3e39ea269ab1030d1e5226a4b1ffbf982ad25a4c61abca5c51.css?body=1" for 127.0.0.1 at 2015-12-27 14:25:12 -0500
+
+
+Started GET "/assets/data/articles.json" for 127.0.0.1 at 2015-12-27 14:25:12 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2015-12-27 14:25:44 -0500
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 81ms (Views: 79.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/articles.self-73a8ec86ff6deb3656bdaffb251ebf044e5fadf174986de2ffbc48975242f581.css?body=1" for 127.0.0.1 at 2015-12-27 14:25:44 -0500
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for 127.0.0.1 at 2015-12-27 14:25:44 -0500
+
+
+Started GET "/assets/static_pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-12-27 14:25:44 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-12-27 14:25:44 -0500
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for 127.0.0.1 at 2015-12-27 14:25:44 -0500
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2015-12-27 14:25:44 -0500
+
+
+Started GET "/assets/components/articles.self-4e125f4a225cd7de3a846bcbeaad4f8fd22f255964b5ee404dd5473886985a8f.js?body=1" for 127.0.0.1 at 2015-12-27 14:25:44 -0500
+
+
+Started GET "/assets/react_ujs.self-c42e5ee44bcda6910afca6fb40f99d9963074b3aefe72365ce90c24312e73b2b.js?body=1" for 127.0.0.1 at 2015-12-27 14:25:44 -0500
+
+
+Started GET "/assets/components/article_line.self-9769d7e7d2bf8cbeda4f00bc62be3b50f411794b1eae9f8e7ca3e0481bd49470.js?body=1" for 127.0.0.1 at 2015-12-27 14:25:44 -0500
+
+
+Started GET "/assets/development/react.self-93bc62cb6c7b74ee7e5a2fcf623f3abbd365440bf90eba740c625f159078aa82.js?body=1" for 127.0.0.1 at 2015-12-27 14:25:44 -0500
+
+
+Started GET "/assets/components/header.self-cab53289a27df193f5ae07a6b08d66a7ff2a6874695be195d0756258ac388ef8.js?body=1" for 127.0.0.1 at 2015-12-27 14:25:44 -0500
+
+
+Started GET "/assets/components.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for 127.0.0.1 at 2015-12-27 14:25:44 -0500
+
+
+Started GET "/assets/flux.self-c2206dc953bbad23c0ee331879560545a4ec58709c89fe78db57a156ec19c08f.js?body=1" for 127.0.0.1 at 2015-12-27 14:25:44 -0500
+
+
+Started GET "/assets/actions/api_actions.self-fbb8f50900aaf76af6a1c35fa017a65adbcc248f379ed334d875ddc5d4c446f6.js?body=1" for 127.0.0.1 at 2015-12-27 14:25:44 -0500
+
+
+Started GET "/assets/dispatcher/dispatcher.self-df4b2118c83e53bfcd046d9391e85547aa2f41e5a424adaa5c8d907b9675777f.js?body=1" for 127.0.0.1 at 2015-12-27 14:25:44 -0500
+
+
+Started GET "/assets/articleapp.self-55fd94261daa72b56bdfe326783b8bf1bfcd1e819030dc57f67c4a15070a6383.js?body=1" for 127.0.0.1 at 2015-12-27 14:25:44 -0500
+
+
+Started GET "/assets/eventemitter.self-b7e538902dfb3dce50e80598efaa7b435781b7bc8fe936a7aca64a6f2699d411.js?body=1" for 127.0.0.1 at 2015-12-27 14:25:44 -0500
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-12-27 14:25:44 -0500
+
+
+Started GET "/assets/stores/articles.self-ce4b87b5d5cedd253e34585eb25add66a819cd5beed3130a1f3c12f4b2b98e8b.js?body=1" for 127.0.0.1 at 2015-12-27 14:25:44 -0500
+
+
+Started GET "/assets/application.self-a1a74291c4c48f2f663a025ffa678498d6448b849a2d74c0ca25e39ee192c0a7.js?body=1" for 127.0.0.1 at 2015-12-27 14:25:44 -0500
+
+
+Started GET "/assets/util/api_util.self-470353018f350df7ee95a205afbe3d3132d7e5ce8b028c4e1aa5515f634dcb12.js?body=1" for 127.0.0.1 at 2015-12-27 14:25:44 -0500
+
+
+Started GET "/assets/data/articles.json" for 127.0.0.1 at 2015-12-27 14:25:44 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2015-12-27 14:26:05 -0500
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 85ms (Views: 84.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/articles.self-807ed59b0c0174364e94117d134accb53bb053a17c5b715755d3ccfb3e8893d3.css?body=1" for 127.0.0.1 at 2015-12-27 14:26:05 -0500
+
+
+Started GET "/assets/static_pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-12-27 14:26:05 -0500
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2015-12-27 14:26:05 -0500
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for 127.0.0.1 at 2015-12-27 14:26:05 -0500
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for 127.0.0.1 at 2015-12-27 14:26:05 -0500
+
+
+Started GET "/assets/development/react.self-93bc62cb6c7b74ee7e5a2fcf623f3abbd365440bf90eba740c625f159078aa82.js?body=1" for 127.0.0.1 at 2015-12-27 14:26:05 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-12-27 14:26:05 -0500
+
+
+Started GET "/assets/react_ujs.self-c42e5ee44bcda6910afca6fb40f99d9963074b3aefe72365ce90c24312e73b2b.js?body=1" for 127.0.0.1 at 2015-12-27 14:26:05 -0500
+
+
+Started GET "/assets/components/header.self-cab53289a27df193f5ae07a6b08d66a7ff2a6874695be195d0756258ac388ef8.js?body=1" for 127.0.0.1 at 2015-12-27 14:26:05 -0500
+
+
+Started GET "/assets/components/article_line.self-9769d7e7d2bf8cbeda4f00bc62be3b50f411794b1eae9f8e7ca3e0481bd49470.js?body=1" for 127.0.0.1 at 2015-12-27 14:26:05 -0500
+
+
+Started GET "/assets/components.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for 127.0.0.1 at 2015-12-27 14:26:05 -0500
+
+
+Started GET "/assets/eventemitter.self-b7e538902dfb3dce50e80598efaa7b435781b7bc8fe936a7aca64a6f2699d411.js?body=1" for 127.0.0.1 at 2015-12-27 14:26:05 -0500
+
+
+Started GET "/assets/flux.self-c2206dc953bbad23c0ee331879560545a4ec58709c89fe78db57a156ec19c08f.js?body=1" for 127.0.0.1 at 2015-12-27 14:26:05 -0500
+
+
+Started GET "/assets/components/articles.self-4e125f4a225cd7de3a846bcbeaad4f8fd22f255964b5ee404dd5473886985a8f.js?body=1" for 127.0.0.1 at 2015-12-27 14:26:05 -0500
+
+
+Started GET "/assets/actions/api_actions.self-fbb8f50900aaf76af6a1c35fa017a65adbcc248f379ed334d875ddc5d4c446f6.js?body=1" for 127.0.0.1 at 2015-12-27 14:26:05 -0500
+
+
+Started GET "/assets/articleapp.self-55fd94261daa72b56bdfe326783b8bf1bfcd1e819030dc57f67c4a15070a6383.js?body=1" for 127.0.0.1 at 2015-12-27 14:26:05 -0500
+
+
+Started GET "/assets/dispatcher/dispatcher.self-df4b2118c83e53bfcd046d9391e85547aa2f41e5a424adaa5c8d907b9675777f.js?body=1" for 127.0.0.1 at 2015-12-27 14:26:05 -0500
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-12-27 14:26:05 -0500
+
+
+Started GET "/assets/stores/articles.self-ce4b87b5d5cedd253e34585eb25add66a819cd5beed3130a1f3c12f4b2b98e8b.js?body=1" for 127.0.0.1 at 2015-12-27 14:26:05 -0500
+
+
+Started GET "/assets/util/api_util.self-470353018f350df7ee95a205afbe3d3132d7e5ce8b028c4e1aa5515f634dcb12.js?body=1" for 127.0.0.1 at 2015-12-27 14:26:05 -0500
+
+
+Started GET "/assets/application.self-a1a74291c4c48f2f663a025ffa678498d6448b849a2d74c0ca25e39ee192c0a7.js?body=1" for 127.0.0.1 at 2015-12-27 14:26:05 -0500
+
+
+Started GET "/assets/data/articles.json" for 127.0.0.1 at 2015-12-27 14:26:06 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2015-12-27 14:26:50 -0500
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 85ms (Views: 83.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/articles.self-ac1f5e3767bc614280c4bb691a5a15391a7c6da9af178f18eff1cabcd47db96e.css?body=1" for 127.0.0.1 at 2015-12-27 14:26:50 -0500
+
+
+Started GET "/assets/static_pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-12-27 14:26:50 -0500
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2015-12-27 14:26:50 -0500
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for 127.0.0.1 at 2015-12-27 14:26:50 -0500
+
+
+Started GET "/assets/react_ujs.self-c42e5ee44bcda6910afca6fb40f99d9963074b3aefe72365ce90c24312e73b2b.js?body=1" for 127.0.0.1 at 2015-12-27 14:26:50 -0500
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for 127.0.0.1 at 2015-12-27 14:26:50 -0500
+
+
+Started GET "/assets/development/react.self-93bc62cb6c7b74ee7e5a2fcf623f3abbd365440bf90eba740c625f159078aa82.js?body=1" for 127.0.0.1 at 2015-12-27 14:26:50 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-12-27 14:26:50 -0500
+
+
+Started GET "/assets/components/article_line.self-9769d7e7d2bf8cbeda4f00bc62be3b50f411794b1eae9f8e7ca3e0481bd49470.js?body=1" for 127.0.0.1 at 2015-12-27 14:26:50 -0500
+
+
+Started GET "/assets/flux.self-c2206dc953bbad23c0ee331879560545a4ec58709c89fe78db57a156ec19c08f.js?body=1" for 127.0.0.1 at 2015-12-27 14:26:50 -0500
+
+
+Started GET "/assets/components/header.self-cab53289a27df193f5ae07a6b08d66a7ff2a6874695be195d0756258ac388ef8.js?body=1" for 127.0.0.1 at 2015-12-27 14:26:50 -0500
+
+
+Started GET "/assets/actions/api_actions.self-fbb8f50900aaf76af6a1c35fa017a65adbcc248f379ed334d875ddc5d4c446f6.js?body=1" for 127.0.0.1 at 2015-12-27 14:26:50 -0500
+
+
+Started GET "/assets/eventemitter.self-b7e538902dfb3dce50e80598efaa7b435781b7bc8fe936a7aca64a6f2699d411.js?body=1" for 127.0.0.1 at 2015-12-27 14:26:50 -0500
+
+
+Started GET "/assets/components.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for 127.0.0.1 at 2015-12-27 14:26:50 -0500
+
+
+Started GET "/assets/components/articles.self-4e125f4a225cd7de3a846bcbeaad4f8fd22f255964b5ee404dd5473886985a8f.js?body=1" for 127.0.0.1 at 2015-12-27 14:26:50 -0500
+
+
+Started GET "/assets/articleapp.self-55fd94261daa72b56bdfe326783b8bf1bfcd1e819030dc57f67c4a15070a6383.js?body=1" for 127.0.0.1 at 2015-12-27 14:26:50 -0500
+
+
+Started GET "/assets/dispatcher/dispatcher.self-df4b2118c83e53bfcd046d9391e85547aa2f41e5a424adaa5c8d907b9675777f.js?body=1" for 127.0.0.1 at 2015-12-27 14:26:50 -0500
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-12-27 14:26:50 -0500
+
+
+Started GET "/assets/stores/articles.self-ce4b87b5d5cedd253e34585eb25add66a819cd5beed3130a1f3c12f4b2b98e8b.js?body=1" for 127.0.0.1 at 2015-12-27 14:26:50 -0500
+
+
+Started GET "/assets/util/api_util.self-470353018f350df7ee95a205afbe3d3132d7e5ce8b028c4e1aa5515f634dcb12.js?body=1" for 127.0.0.1 at 2015-12-27 14:26:50 -0500
+
+
+Started GET "/assets/application.self-a1a74291c4c48f2f663a025ffa678498d6448b849a2d74c0ca25e39ee192c0a7.js?body=1" for 127.0.0.1 at 2015-12-27 14:26:50 -0500
+
+
+Started GET "/assets/data/articles.json" for 127.0.0.1 at 2015-12-27 14:26:51 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2015-12-27 14:26:55 -0500
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 78ms (Views: 76.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/articles.self-07ff809990a369d2b173ff8467a5c252b8ef96f7d308d852eee51730c1621830.css?body=1" for 127.0.0.1 at 2015-12-27 14:26:55 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-12-27 14:26:55 -0500
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for 127.0.0.1 at 2015-12-27 14:26:55 -0500
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2015-12-27 14:26:55 -0500
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for 127.0.0.1 at 2015-12-27 14:26:55 -0500
+
+
+Started GET "/assets/static_pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-12-27 14:26:55 -0500
+
+
+Started GET "/assets/development/react.self-93bc62cb6c7b74ee7e5a2fcf623f3abbd365440bf90eba740c625f159078aa82.js?body=1" for 127.0.0.1 at 2015-12-27 14:26:55 -0500
+
+
+Started GET "/assets/react_ujs.self-c42e5ee44bcda6910afca6fb40f99d9963074b3aefe72365ce90c24312e73b2b.js?body=1" for 127.0.0.1 at 2015-12-27 14:26:55 -0500
+
+
+Started GET "/assets/components/article_line.self-9769d7e7d2bf8cbeda4f00bc62be3b50f411794b1eae9f8e7ca3e0481bd49470.js?body=1" for 127.0.0.1 at 2015-12-27 14:26:55 -0500
+
+
+Started GET "/assets/components/articles.self-4e125f4a225cd7de3a846bcbeaad4f8fd22f255964b5ee404dd5473886985a8f.js?body=1" for 127.0.0.1 at 2015-12-27 14:26:55 -0500
+
+
+Started GET "/assets/components/header.self-cab53289a27df193f5ae07a6b08d66a7ff2a6874695be195d0756258ac388ef8.js?body=1" for 127.0.0.1 at 2015-12-27 14:26:55 -0500
+
+
+Started GET "/assets/components.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for 127.0.0.1 at 2015-12-27 14:26:55 -0500
+
+
+Started GET "/assets/flux.self-c2206dc953bbad23c0ee331879560545a4ec58709c89fe78db57a156ec19c08f.js?body=1" for 127.0.0.1 at 2015-12-27 14:26:55 -0500
+
+
+Started GET "/assets/eventemitter.self-b7e538902dfb3dce50e80598efaa7b435781b7bc8fe936a7aca64a6f2699d411.js?body=1" for 127.0.0.1 at 2015-12-27 14:26:55 -0500
+
+
+Started GET "/assets/actions/api_actions.self-fbb8f50900aaf76af6a1c35fa017a65adbcc248f379ed334d875ddc5d4c446f6.js?body=1" for 127.0.0.1 at 2015-12-27 14:26:55 -0500
+
+
+Started GET "/assets/dispatcher/dispatcher.self-df4b2118c83e53bfcd046d9391e85547aa2f41e5a424adaa5c8d907b9675777f.js?body=1" for 127.0.0.1 at 2015-12-27 14:26:55 -0500
+
+
+Started GET "/assets/articleapp.self-55fd94261daa72b56bdfe326783b8bf1bfcd1e819030dc57f67c4a15070a6383.js?body=1" for 127.0.0.1 at 2015-12-27 14:26:55 -0500
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-12-27 14:26:55 -0500
+
+
+Started GET "/assets/stores/articles.self-ce4b87b5d5cedd253e34585eb25add66a819cd5beed3130a1f3c12f4b2b98e8b.js?body=1" for 127.0.0.1 at 2015-12-27 14:26:55 -0500
+
+
+Started GET "/assets/application.self-a1a74291c4c48f2f663a025ffa678498d6448b849a2d74c0ca25e39ee192c0a7.js?body=1" for 127.0.0.1 at 2015-12-27 14:26:55 -0500
+
+
+Started GET "/assets/util/api_util.self-470353018f350df7ee95a205afbe3d3132d7e5ce8b028c4e1aa5515f634dcb12.js?body=1" for 127.0.0.1 at 2015-12-27 14:26:55 -0500
+
+
+Started GET "/assets/data/articles.json" for 127.0.0.1 at 2015-12-27 14:26:56 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2015-12-27 14:27:23 -0500
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 79ms (Views: 78.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2015-12-27 14:27:23 -0500
+
+
+Started GET "/assets/static_pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-12-27 14:27:23 -0500
+
+
+Started GET "/assets/articles.self-00f98717cea744d581146c4e092786162634f2527bb1834cf497a4957a720225.css?body=1" for 127.0.0.1 at 2015-12-27 14:27:23 -0500
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for 127.0.0.1 at 2015-12-27 14:27:23 -0500
+
+
+Started GET "/assets/development/react.self-93bc62cb6c7b74ee7e5a2fcf623f3abbd365440bf90eba740c625f159078aa82.js?body=1" for 127.0.0.1 at 2015-12-27 14:27:23 -0500
+
+
+Started GET "/assets/react_ujs.self-c42e5ee44bcda6910afca6fb40f99d9963074b3aefe72365ce90c24312e73b2b.js?body=1" for 127.0.0.1 at 2015-12-27 14:27:23 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-12-27 14:27:23 -0500
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for 127.0.0.1 at 2015-12-27 14:27:23 -0500
+
+
+Started GET "/assets/components/article_line.self-9769d7e7d2bf8cbeda4f00bc62be3b50f411794b1eae9f8e7ca3e0481bd49470.js?body=1" for 127.0.0.1 at 2015-12-27 14:27:23 -0500
+
+
+Started GET "/assets/components/articles.self-4e125f4a225cd7de3a846bcbeaad4f8fd22f255964b5ee404dd5473886985a8f.js?body=1" for 127.0.0.1 at 2015-12-27 14:27:23 -0500
+
+
+Started GET "/assets/components/header.self-cab53289a27df193f5ae07a6b08d66a7ff2a6874695be195d0756258ac388ef8.js?body=1" for 127.0.0.1 at 2015-12-27 14:27:24 -0500
+
+
+Started GET "/assets/flux.self-c2206dc953bbad23c0ee331879560545a4ec58709c89fe78db57a156ec19c08f.js?body=1" for 127.0.0.1 at 2015-12-27 14:27:24 -0500
+
+
+Started GET "/assets/components.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for 127.0.0.1 at 2015-12-27 14:27:24 -0500
+
+
+Started GET "/assets/actions/api_actions.self-fbb8f50900aaf76af6a1c35fa017a65adbcc248f379ed334d875ddc5d4c446f6.js?body=1" for 127.0.0.1 at 2015-12-27 14:27:24 -0500
+
+
+Started GET "/assets/eventemitter.self-b7e538902dfb3dce50e80598efaa7b435781b7bc8fe936a7aca64a6f2699d411.js?body=1" for 127.0.0.1 at 2015-12-27 14:27:24 -0500
+
+
+Started GET "/assets/articleapp.self-55fd94261daa72b56bdfe326783b8bf1bfcd1e819030dc57f67c4a15070a6383.js?body=1" for 127.0.0.1 at 2015-12-27 14:27:24 -0500
+
+
+Started GET "/assets/dispatcher/dispatcher.self-df4b2118c83e53bfcd046d9391e85547aa2f41e5a424adaa5c8d907b9675777f.js?body=1" for 127.0.0.1 at 2015-12-27 14:27:24 -0500
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-12-27 14:27:24 -0500
+
+
+Started GET "/assets/stores/articles.self-ce4b87b5d5cedd253e34585eb25add66a819cd5beed3130a1f3c12f4b2b98e8b.js?body=1" for 127.0.0.1 at 2015-12-27 14:27:24 -0500
+
+
+Started GET "/assets/util/api_util.self-470353018f350df7ee95a205afbe3d3132d7e5ce8b028c4e1aa5515f634dcb12.js?body=1" for 127.0.0.1 at 2015-12-27 14:27:24 -0500
+
+
+Started GET "/assets/application.self-a1a74291c4c48f2f663a025ffa678498d6448b849a2d74c0ca25e39ee192c0a7.js?body=1" for 127.0.0.1 at 2015-12-27 14:27:24 -0500
+
+
+Started GET "/assets/data/articles.json" for 127.0.0.1 at 2015-12-27 14:27:24 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2015-12-27 14:27:59 -0500
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 85ms (Views: 84.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/articles.self-b12cab0e0e145365c226a58d1784e7ae88fef7103c2ec2ebf1eada57eca9d83c.css?body=1" for 127.0.0.1 at 2015-12-27 14:28:00 -0500
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for 127.0.0.1 at 2015-12-27 14:28:00 -0500
+
+
+Started GET "/assets/static_pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-12-27 14:28:00 -0500
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2015-12-27 14:28:00 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-12-27 14:28:00 -0500
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for 127.0.0.1 at 2015-12-27 14:28:00 -0500
+
+
+Started GET "/assets/development/react.self-93bc62cb6c7b74ee7e5a2fcf623f3abbd365440bf90eba740c625f159078aa82.js?body=1" for 127.0.0.1 at 2015-12-27 14:28:00 -0500
+
+
+Started GET "/assets/components/article_line.self-9769d7e7d2bf8cbeda4f00bc62be3b50f411794b1eae9f8e7ca3e0481bd49470.js?body=1" for 127.0.0.1 at 2015-12-27 14:28:00 -0500
+
+
+Started GET "/assets/components/articles.self-4e125f4a225cd7de3a846bcbeaad4f8fd22f255964b5ee404dd5473886985a8f.js?body=1" for 127.0.0.1 at 2015-12-27 14:28:00 -0500
+
+
+Started GET "/assets/react_ujs.self-c42e5ee44bcda6910afca6fb40f99d9963074b3aefe72365ce90c24312e73b2b.js?body=1" for 127.0.0.1 at 2015-12-27 14:28:00 -0500
+
+
+Started GET "/assets/components/header.self-cab53289a27df193f5ae07a6b08d66a7ff2a6874695be195d0756258ac388ef8.js?body=1" for 127.0.0.1 at 2015-12-27 14:28:00 -0500
+
+
+Started GET "/assets/components.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for 127.0.0.1 at 2015-12-27 14:28:00 -0500
+
+
+Started GET "/assets/flux.self-c2206dc953bbad23c0ee331879560545a4ec58709c89fe78db57a156ec19c08f.js?body=1" for 127.0.0.1 at 2015-12-27 14:28:00 -0500
+
+
+Started GET "/assets/eventemitter.self-b7e538902dfb3dce50e80598efaa7b435781b7bc8fe936a7aca64a6f2699d411.js?body=1" for 127.0.0.1 at 2015-12-27 14:28:00 -0500
+
+
+Started GET "/assets/actions/api_actions.self-fbb8f50900aaf76af6a1c35fa017a65adbcc248f379ed334d875ddc5d4c446f6.js?body=1" for 127.0.0.1 at 2015-12-27 14:28:00 -0500
+
+
+Started GET "/assets/articleapp.self-55fd94261daa72b56bdfe326783b8bf1bfcd1e819030dc57f67c4a15070a6383.js?body=1" for 127.0.0.1 at 2015-12-27 14:28:00 -0500
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-12-27 14:28:00 -0500
+
+
+Started GET "/assets/dispatcher/dispatcher.self-df4b2118c83e53bfcd046d9391e85547aa2f41e5a424adaa5c8d907b9675777f.js?body=1" for 127.0.0.1 at 2015-12-27 14:28:00 -0500
+
+
+Started GET "/assets/stores/articles.self-ce4b87b5d5cedd253e34585eb25add66a819cd5beed3130a1f3c12f4b2b98e8b.js?body=1" for 127.0.0.1 at 2015-12-27 14:28:00 -0500
+
+
+Started GET "/assets/application.self-a1a74291c4c48f2f663a025ffa678498d6448b849a2d74c0ca25e39ee192c0a7.js?body=1" for 127.0.0.1 at 2015-12-27 14:28:00 -0500
+
+
+Started GET "/assets/util/api_util.self-470353018f350df7ee95a205afbe3d3132d7e5ce8b028c4e1aa5515f634dcb12.js?body=1" for 127.0.0.1 at 2015-12-27 14:28:00 -0500
+
+
+Started GET "/assets/data/articles.json" for 127.0.0.1 at 2015-12-27 14:28:00 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2015-12-27 14:28:04 -0500
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 65ms (Views: 64.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/articles.self-07ff809990a369d2b173ff8467a5c252b8ef96f7d308d852eee51730c1621830.css?body=1" for 127.0.0.1 at 2015-12-27 14:28:05 -0500
+
+
+Started GET "/assets/static_pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-12-27 14:28:05 -0500
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2015-12-27 14:28:05 -0500
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for 127.0.0.1 at 2015-12-27 14:28:05 -0500
+
+
+Started GET "/assets/react_ujs.self-c42e5ee44bcda6910afca6fb40f99d9963074b3aefe72365ce90c24312e73b2b.js?body=1" for 127.0.0.1 at 2015-12-27 14:28:05 -0500
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for 127.0.0.1 at 2015-12-27 14:28:05 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-12-27 14:28:05 -0500
+
+
+Started GET "/assets/development/react.self-93bc62cb6c7b74ee7e5a2fcf623f3abbd365440bf90eba740c625f159078aa82.js?body=1" for 127.0.0.1 at 2015-12-27 14:28:05 -0500
+
+
+Started GET "/assets/components/article_line.self-9769d7e7d2bf8cbeda4f00bc62be3b50f411794b1eae9f8e7ca3e0481bd49470.js?body=1" for 127.0.0.1 at 2015-12-27 14:28:05 -0500
+
+
+Started GET "/assets/flux.self-c2206dc953bbad23c0ee331879560545a4ec58709c89fe78db57a156ec19c08f.js?body=1" for 127.0.0.1 at 2015-12-27 14:28:05 -0500
+
+
+Started GET "/assets/eventemitter.self-b7e538902dfb3dce50e80598efaa7b435781b7bc8fe936a7aca64a6f2699d411.js?body=1" for 127.0.0.1 at 2015-12-27 14:28:05 -0500
+
+
+Started GET "/assets/components.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for 127.0.0.1 at 2015-12-27 14:28:05 -0500
+
+
+Started GET "/assets/components/articles.self-4e125f4a225cd7de3a846bcbeaad4f8fd22f255964b5ee404dd5473886985a8f.js?body=1" for 127.0.0.1 at 2015-12-27 14:28:05 -0500
+
+
+Started GET "/assets/components/header.self-cab53289a27df193f5ae07a6b08d66a7ff2a6874695be195d0756258ac388ef8.js?body=1" for 127.0.0.1 at 2015-12-27 14:28:05 -0500
+
+
+Started GET "/assets/actions/api_actions.self-fbb8f50900aaf76af6a1c35fa017a65adbcc248f379ed334d875ddc5d4c446f6.js?body=1" for 127.0.0.1 at 2015-12-27 14:28:05 -0500
+
+
+Started GET "/assets/articleapp.self-55fd94261daa72b56bdfe326783b8bf1bfcd1e819030dc57f67c4a15070a6383.js?body=1" for 127.0.0.1 at 2015-12-27 14:28:05 -0500
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-12-27 14:28:05 -0500
+
+
+Started GET "/assets/dispatcher/dispatcher.self-df4b2118c83e53bfcd046d9391e85547aa2f41e5a424adaa5c8d907b9675777f.js?body=1" for 127.0.0.1 at 2015-12-27 14:28:05 -0500
+
+
+Started GET "/assets/stores/articles.self-ce4b87b5d5cedd253e34585eb25add66a819cd5beed3130a1f3c12f4b2b98e8b.js?body=1" for 127.0.0.1 at 2015-12-27 14:28:05 -0500
+
+
+Started GET "/assets/util/api_util.self-470353018f350df7ee95a205afbe3d3132d7e5ce8b028c4e1aa5515f634dcb12.js?body=1" for 127.0.0.1 at 2015-12-27 14:28:05 -0500
+
+
+Started GET "/assets/application.self-a1a74291c4c48f2f663a025ffa678498d6448b849a2d74c0ca25e39ee192c0a7.js?body=1" for 127.0.0.1 at 2015-12-27 14:28:05 -0500
+
+
+Started GET "/assets/data/articles.json" for 127.0.0.1 at 2015-12-27 14:28:05 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2015-12-27 14:28:38 -0500
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 81ms (Views: 80.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/articles.self-3a30a0638cf89e99b1630b6f0d67ceb55803e0c48c27fe8266943d11b083df61.css?body=1" for 127.0.0.1 at 2015-12-27 14:28:38 -0500
+
+
+Started GET "/assets/development/react.self-93bc62cb6c7b74ee7e5a2fcf623f3abbd365440bf90eba740c625f159078aa82.js?body=1" for 127.0.0.1 at 2015-12-27 14:28:38 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-12-27 14:28:38 -0500
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for 127.0.0.1 at 2015-12-27 14:28:38 -0500
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for 127.0.0.1 at 2015-12-27 14:28:38 -0500
+
+
+Started GET "/assets/static_pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-12-27 14:28:38 -0500
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2015-12-27 14:28:38 -0500
+
+
+Started GET "/assets/react_ujs.self-c42e5ee44bcda6910afca6fb40f99d9963074b3aefe72365ce90c24312e73b2b.js?body=1" for 127.0.0.1 at 2015-12-27 14:28:38 -0500
+
+
+Started GET "/assets/components/article_line.self-9769d7e7d2bf8cbeda4f00bc62be3b50f411794b1eae9f8e7ca3e0481bd49470.js?body=1" for 127.0.0.1 at 2015-12-27 14:28:38 -0500
+
+
+Started GET "/assets/components/articles.self-4e125f4a225cd7de3a846bcbeaad4f8fd22f255964b5ee404dd5473886985a8f.js?body=1" for 127.0.0.1 at 2015-12-27 14:28:38 -0500
+
+
+Started GET "/assets/components/header.self-cab53289a27df193f5ae07a6b08d66a7ff2a6874695be195d0756258ac388ef8.js?body=1" for 127.0.0.1 at 2015-12-27 14:28:38 -0500
+
+
+Started GET "/assets/components.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for 127.0.0.1 at 2015-12-27 14:28:38 -0500
+
+
+Started GET "/assets/flux.self-c2206dc953bbad23c0ee331879560545a4ec58709c89fe78db57a156ec19c08f.js?body=1" for 127.0.0.1 at 2015-12-27 14:28:38 -0500
+
+
+Started GET "/assets/eventemitter.self-b7e538902dfb3dce50e80598efaa7b435781b7bc8fe936a7aca64a6f2699d411.js?body=1" for 127.0.0.1 at 2015-12-27 14:28:38 -0500
+
+
+Started GET "/assets/actions/api_actions.self-fbb8f50900aaf76af6a1c35fa017a65adbcc248f379ed334d875ddc5d4c446f6.js?body=1" for 127.0.0.1 at 2015-12-27 14:28:38 -0500
+
+
+Started GET "/assets/articleapp.self-55fd94261daa72b56bdfe326783b8bf1bfcd1e819030dc57f67c4a15070a6383.js?body=1" for 127.0.0.1 at 2015-12-27 14:28:38 -0500
+
+
+Started GET "/assets/dispatcher/dispatcher.self-df4b2118c83e53bfcd046d9391e85547aa2f41e5a424adaa5c8d907b9675777f.js?body=1" for 127.0.0.1 at 2015-12-27 14:28:38 -0500
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-12-27 14:28:38 -0500
+
+
+Started GET "/assets/stores/articles.self-ce4b87b5d5cedd253e34585eb25add66a819cd5beed3130a1f3c12f4b2b98e8b.js?body=1" for 127.0.0.1 at 2015-12-27 14:28:38 -0500
+
+
+Started GET "/assets/application.self-a1a74291c4c48f2f663a025ffa678498d6448b849a2d74c0ca25e39ee192c0a7.js?body=1" for 127.0.0.1 at 2015-12-27 14:28:38 -0500
+
+
+Started GET "/assets/util/api_util.self-470353018f350df7ee95a205afbe3d3132d7e5ce8b028c4e1aa5515f634dcb12.js?body=1" for 127.0.0.1 at 2015-12-27 14:28:38 -0500
+
+
+Started GET "/assets/data/articles.json" for 127.0.0.1 at 2015-12-27 14:28:39 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2015-12-27 14:29:16 -0500
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 84ms (Views: 82.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/articles.self-65e88a44f1bafb8e8f92642db851f314e38bf97a9ac273b40ad7daa5733dfacc.css?body=1" for 127.0.0.1 at 2015-12-27 14:29:16 -0500
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2015-12-27 14:29:16 -0500
+
+
+Started GET "/assets/static_pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-12-27 14:29:16 -0500
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for 127.0.0.1 at 2015-12-27 14:29:16 -0500
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for 127.0.0.1 at 2015-12-27 14:29:16 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-12-27 14:29:16 -0500
+
+
+Started GET "/assets/react_ujs.self-c42e5ee44bcda6910afca6fb40f99d9963074b3aefe72365ce90c24312e73b2b.js?body=1" for 127.0.0.1 at 2015-12-27 14:29:16 -0500
+
+
+Started GET "/assets/development/react.self-93bc62cb6c7b74ee7e5a2fcf623f3abbd365440bf90eba740c625f159078aa82.js?body=1" for 127.0.0.1 at 2015-12-27 14:29:16 -0500
+
+
+Started GET "/assets/components/article_line.self-9769d7e7d2bf8cbeda4f00bc62be3b50f411794b1eae9f8e7ca3e0481bd49470.js?body=1" for 127.0.0.1 at 2015-12-27 14:29:16 -0500
+
+
+Started GET "/assets/components/articles.self-4e125f4a225cd7de3a846bcbeaad4f8fd22f255964b5ee404dd5473886985a8f.js?body=1" for 127.0.0.1 at 2015-12-27 14:29:16 -0500
+
+
+Started GET "/assets/components/header.self-cab53289a27df193f5ae07a6b08d66a7ff2a6874695be195d0756258ac388ef8.js?body=1" for 127.0.0.1 at 2015-12-27 14:29:16 -0500
+
+
+Started GET "/assets/actions/api_actions.self-fbb8f50900aaf76af6a1c35fa017a65adbcc248f379ed334d875ddc5d4c446f6.js?body=1" for 127.0.0.1 at 2015-12-27 14:29:16 -0500
+
+
+Started GET "/assets/components.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for 127.0.0.1 at 2015-12-27 14:29:16 -0500
+
+
+Started GET "/assets/eventemitter.self-b7e538902dfb3dce50e80598efaa7b435781b7bc8fe936a7aca64a6f2699d411.js?body=1" for 127.0.0.1 at 2015-12-27 14:29:16 -0500
+
+
+Started GET "/assets/flux.self-c2206dc953bbad23c0ee331879560545a4ec58709c89fe78db57a156ec19c08f.js?body=1" for 127.0.0.1 at 2015-12-27 14:29:16 -0500
+
+
+Started GET "/assets/articleapp.self-55fd94261daa72b56bdfe326783b8bf1bfcd1e819030dc57f67c4a15070a6383.js?body=1" for 127.0.0.1 at 2015-12-27 14:29:16 -0500
+
+
+Started GET "/assets/dispatcher/dispatcher.self-df4b2118c83e53bfcd046d9391e85547aa2f41e5a424adaa5c8d907b9675777f.js?body=1" for 127.0.0.1 at 2015-12-27 14:29:16 -0500
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-12-27 14:29:16 -0500
+
+
+Started GET "/assets/util/api_util.self-470353018f350df7ee95a205afbe3d3132d7e5ce8b028c4e1aa5515f634dcb12.js?body=1" for 127.0.0.1 at 2015-12-27 14:29:16 -0500
+
+
+Started GET "/assets/stores/articles.self-ce4b87b5d5cedd253e34585eb25add66a819cd5beed3130a1f3c12f4b2b98e8b.js?body=1" for 127.0.0.1 at 2015-12-27 14:29:16 -0500
+
+
+Started GET "/assets/application.self-a1a74291c4c48f2f663a025ffa678498d6448b849a2d74c0ca25e39ee192c0a7.js?body=1" for 127.0.0.1 at 2015-12-27 14:29:16 -0500
+
+
+Started GET "/assets/data/articles.json" for 127.0.0.1 at 2015-12-27 14:29:16 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2015-12-27 14:29:27 -0500
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 91ms (Views: 90.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/articles.self-61c55684aa6d0653574b6cedd61b05d04f2887437d981ef646fa4fe90fb287ca.css?body=1" for 127.0.0.1 at 2015-12-27 14:29:28 -0500
+
+
+Started GET "/assets/static_pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-12-27 14:29:28 -0500
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2015-12-27 14:29:28 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-12-27 14:29:28 -0500
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for 127.0.0.1 at 2015-12-27 14:29:28 -0500
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for 127.0.0.1 at 2015-12-27 14:29:28 -0500
+
+
+Started GET "/assets/development/react.self-93bc62cb6c7b74ee7e5a2fcf623f3abbd365440bf90eba740c625f159078aa82.js?body=1" for 127.0.0.1 at 2015-12-27 14:29:28 -0500
+
+
+Started GET "/assets/react_ujs.self-c42e5ee44bcda6910afca6fb40f99d9963074b3aefe72365ce90c24312e73b2b.js?body=1" for 127.0.0.1 at 2015-12-27 14:29:28 -0500
+
+
+Started GET "/assets/components/article_line.self-9769d7e7d2bf8cbeda4f00bc62be3b50f411794b1eae9f8e7ca3e0481bd49470.js?body=1" for 127.0.0.1 at 2015-12-27 14:29:28 -0500
+
+
+Started GET "/assets/components/articles.self-4e125f4a225cd7de3a846bcbeaad4f8fd22f255964b5ee404dd5473886985a8f.js?body=1" for 127.0.0.1 at 2015-12-27 14:29:28 -0500
+
+
+Started GET "/assets/components/header.self-cab53289a27df193f5ae07a6b08d66a7ff2a6874695be195d0756258ac388ef8.js?body=1" for 127.0.0.1 at 2015-12-27 14:29:28 -0500
+
+
+Started GET "/assets/components.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for 127.0.0.1 at 2015-12-27 14:29:28 -0500
+
+
+Started GET "/assets/flux.self-c2206dc953bbad23c0ee331879560545a4ec58709c89fe78db57a156ec19c08f.js?body=1" for 127.0.0.1 at 2015-12-27 14:29:28 -0500
+
+
+Started GET "/assets/eventemitter.self-b7e538902dfb3dce50e80598efaa7b435781b7bc8fe936a7aca64a6f2699d411.js?body=1" for 127.0.0.1 at 2015-12-27 14:29:28 -0500
+
+
+Started GET "/assets/actions/api_actions.self-fbb8f50900aaf76af6a1c35fa017a65adbcc248f379ed334d875ddc5d4c446f6.js?body=1" for 127.0.0.1 at 2015-12-27 14:29:28 -0500
+
+
+Started GET "/assets/stores/articles.self-ce4b87b5d5cedd253e34585eb25add66a819cd5beed3130a1f3c12f4b2b98e8b.js?body=1" for 127.0.0.1 at 2015-12-27 14:29:28 -0500
+
+
+Started GET "/assets/dispatcher/dispatcher.self-df4b2118c83e53bfcd046d9391e85547aa2f41e5a424adaa5c8d907b9675777f.js?body=1" for 127.0.0.1 at 2015-12-27 14:29:28 -0500
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-12-27 14:29:28 -0500
+
+
+Started GET "/assets/articleapp.self-55fd94261daa72b56bdfe326783b8bf1bfcd1e819030dc57f67c4a15070a6383.js?body=1" for 127.0.0.1 at 2015-12-27 14:29:28 -0500
+
+
+Started GET "/assets/util/api_util.self-470353018f350df7ee95a205afbe3d3132d7e5ce8b028c4e1aa5515f634dcb12.js?body=1" for 127.0.0.1 at 2015-12-27 14:29:28 -0500
+
+
+Started GET "/assets/application.self-a1a74291c4c48f2f663a025ffa678498d6448b849a2d74c0ca25e39ee192c0a7.js?body=1" for 127.0.0.1 at 2015-12-27 14:29:28 -0500
+
+
+Started GET "/assets/data/articles.json" for 127.0.0.1 at 2015-12-27 14:29:28 -0500
+
+
+Started GET "/assets/data/articles.json" for 127.0.0.1 at 2015-12-27 14:30:28 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2015-12-27 14:32:09 -0500
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 1904ms (Views: 1902.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/articles.self-7607a686a3e30b765ca7a2f636607a786ddb2f5effe9859a9d1a00ad5c0c4d04.css?body=1" for 127.0.0.1 at 2015-12-27 14:32:12 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-12-27 14:32:12 -0500
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for 127.0.0.1 at 2015-12-27 14:32:12 -0500
+
+
+Started GET "/assets/components/article_line.self-6ace272136c40fb715ae9a7e36d6957aeec078d2a9d8dcc2a725b18b3abb5426.js?body=1" for 127.0.0.1 at 2015-12-27 14:32:12 -0500
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for 127.0.0.1 at 2015-12-27 14:32:12 -0500
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2015-12-27 14:32:12 -0500
+
+
+Started GET "/assets/static_pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-12-27 14:32:12 -0500
+
+
+Started GET "/assets/development/react.self-93bc62cb6c7b74ee7e5a2fcf623f3abbd365440bf90eba740c625f159078aa82.js?body=1" for 127.0.0.1 at 2015-12-27 14:32:12 -0500
+
+
+Started GET "/assets/react_ujs.self-c42e5ee44bcda6910afca6fb40f99d9963074b3aefe72365ce90c24312e73b2b.js?body=1" for 127.0.0.1 at 2015-12-27 14:32:12 -0500
+
+
+Started GET "/assets/components/articles.self-4e125f4a225cd7de3a846bcbeaad4f8fd22f255964b5ee404dd5473886985a8f.js?body=1" for 127.0.0.1 at 2015-12-27 14:32:12 -0500
+
+
+Started GET "/assets/components/header.self-cab53289a27df193f5ae07a6b08d66a7ff2a6874695be195d0756258ac388ef8.js?body=1" for 127.0.0.1 at 2015-12-27 14:32:12 -0500
+
+
+Started GET "/assets/components.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for 127.0.0.1 at 2015-12-27 14:32:12 -0500
+
+
+Started GET "/assets/articleapp.self-55fd94261daa72b56bdfe326783b8bf1bfcd1e819030dc57f67c4a15070a6383.js?body=1" for 127.0.0.1 at 2015-12-27 14:32:12 -0500
+
+
+Started GET "/assets/actions/api_actions.self-fbb8f50900aaf76af6a1c35fa017a65adbcc248f379ed334d875ddc5d4c446f6.js?body=1" for 127.0.0.1 at 2015-12-27 14:32:12 -0500
+
+
+Started GET "/assets/eventemitter.self-b7e538902dfb3dce50e80598efaa7b435781b7bc8fe936a7aca64a6f2699d411.js?body=1" for 127.0.0.1 at 2015-12-27 14:32:12 -0500
+
+
+Started GET "/assets/flux.self-c2206dc953bbad23c0ee331879560545a4ec58709c89fe78db57a156ec19c08f.js?body=1" for 127.0.0.1 at 2015-12-27 14:32:12 -0500
+
+
+Started GET "/assets/dispatcher/dispatcher.self-df4b2118c83e53bfcd046d9391e85547aa2f41e5a424adaa5c8d907b9675777f.js?body=1" for 127.0.0.1 at 2015-12-27 14:32:12 -0500
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-12-27 14:32:12 -0500
+
+
+Started GET "/assets/util/api_util.self-470353018f350df7ee95a205afbe3d3132d7e5ce8b028c4e1aa5515f634dcb12.js?body=1" for 127.0.0.1 at 2015-12-27 14:32:12 -0500
+
+
+Started GET "/assets/stores/articles.self-ce4b87b5d5cedd253e34585eb25add66a819cd5beed3130a1f3c12f4b2b98e8b.js?body=1" for 127.0.0.1 at 2015-12-27 14:32:12 -0500
+
+
+Started GET "/assets/application.self-a1a74291c4c48f2f663a025ffa678498d6448b849a2d74c0ca25e39ee192c0a7.js?body=1" for 127.0.0.1 at 2015-12-27 14:32:12 -0500
+
+
+Started GET "/assets/data/articles.json" for 127.0.0.1 at 2015-12-27 14:32:12 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2015-12-27 14:32:39 -0500
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 111ms (Views: 109.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/articles.self-30fef774fa1a972fdb3a422a3cf599d9d7ecaa6b2751f0ea7af641db45a6fa14.css?body=1" for 127.0.0.1 at 2015-12-27 14:32:39 -0500
+
+
+Started GET "/assets/static_pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-12-27 14:32:39 -0500
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2015-12-27 14:32:39 -0500
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for 127.0.0.1 at 2015-12-27 14:32:39 -0500
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for 127.0.0.1 at 2015-12-27 14:32:39 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-12-27 14:32:39 -0500
+
+
+Started GET "/assets/react_ujs.self-c42e5ee44bcda6910afca6fb40f99d9963074b3aefe72365ce90c24312e73b2b.js?body=1" for 127.0.0.1 at 2015-12-27 14:32:39 -0500
+
+
+Started GET "/assets/development/react.self-93bc62cb6c7b74ee7e5a2fcf623f3abbd365440bf90eba740c625f159078aa82.js?body=1" for 127.0.0.1 at 2015-12-27 14:32:39 -0500
+
+
+Started GET "/assets/components/article_line.self-6ace272136c40fb715ae9a7e36d6957aeec078d2a9d8dcc2a725b18b3abb5426.js?body=1" for 127.0.0.1 at 2015-12-27 14:32:39 -0500
+
+
+Started GET "/assets/components/articles.self-4e125f4a225cd7de3a846bcbeaad4f8fd22f255964b5ee404dd5473886985a8f.js?body=1" for 127.0.0.1 at 2015-12-27 14:32:39 -0500
+
+
+Started GET "/assets/components/header.self-cab53289a27df193f5ae07a6b08d66a7ff2a6874695be195d0756258ac388ef8.js?body=1" for 127.0.0.1 at 2015-12-27 14:32:39 -0500
+
+
+Started GET "/assets/components.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for 127.0.0.1 at 2015-12-27 14:32:39 -0500
+
+
+Started GET "/assets/flux.self-c2206dc953bbad23c0ee331879560545a4ec58709c89fe78db57a156ec19c08f.js?body=1" for 127.0.0.1 at 2015-12-27 14:32:39 -0500
+
+
+Started GET "/assets/eventemitter.self-b7e538902dfb3dce50e80598efaa7b435781b7bc8fe936a7aca64a6f2699d411.js?body=1" for 127.0.0.1 at 2015-12-27 14:32:39 -0500
+
+
+Started GET "/assets/actions/api_actions.self-fbb8f50900aaf76af6a1c35fa017a65adbcc248f379ed334d875ddc5d4c446f6.js?body=1" for 127.0.0.1 at 2015-12-27 14:32:39 -0500
+
+
+Started GET "/assets/articleapp.self-55fd94261daa72b56bdfe326783b8bf1bfcd1e819030dc57f67c4a15070a6383.js?body=1" for 127.0.0.1 at 2015-12-27 14:32:39 -0500
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-12-27 14:32:39 -0500
+
+
+Started GET "/assets/dispatcher/dispatcher.self-df4b2118c83e53bfcd046d9391e85547aa2f41e5a424adaa5c8d907b9675777f.js?body=1" for 127.0.0.1 at 2015-12-27 14:32:39 -0500
+
+
+Started GET "/assets/application.self-a1a74291c4c48f2f663a025ffa678498d6448b849a2d74c0ca25e39ee192c0a7.js?body=1" for 127.0.0.1 at 2015-12-27 14:32:39 -0500
+
+
+Started GET "/assets/stores/articles.self-ce4b87b5d5cedd253e34585eb25add66a819cd5beed3130a1f3c12f4b2b98e8b.js?body=1" for 127.0.0.1 at 2015-12-27 14:32:39 -0500
+
+
+Started GET "/assets/util/api_util.self-470353018f350df7ee95a205afbe3d3132d7e5ce8b028c4e1aa5515f634dcb12.js?body=1" for 127.0.0.1 at 2015-12-27 14:32:39 -0500
+
+
+Started GET "/assets/data/articles.json" for 127.0.0.1 at 2015-12-27 14:32:39 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2015-12-27 14:32:45 -0500
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 115ms (Views: 114.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/articles.self-fee36e88f614fc4dbf3f0eaf56e3835a843b5becce4ff12fdd74a8510df88881.css?body=1" for 127.0.0.1 at 2015-12-27 14:32:45 -0500
+
+
+Started GET "/assets/static_pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-12-27 14:32:46 -0500
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2015-12-27 14:32:46 -0500
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for 127.0.0.1 at 2015-12-27 14:32:46 -0500
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for 127.0.0.1 at 2015-12-27 14:32:46 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-12-27 14:32:46 -0500
+
+
+Started GET "/assets/components/header.self-cab53289a27df193f5ae07a6b08d66a7ff2a6874695be195d0756258ac388ef8.js?body=1" for 127.0.0.1 at 2015-12-27 14:32:46 -0500
+
+
+Started GET "/assets/components/articles.self-4e125f4a225cd7de3a846bcbeaad4f8fd22f255964b5ee404dd5473886985a8f.js?body=1" for 127.0.0.1 at 2015-12-27 14:32:46 -0500
+
+
+Started GET "/assets/development/react.self-93bc62cb6c7b74ee7e5a2fcf623f3abbd365440bf90eba740c625f159078aa82.js?body=1" for 127.0.0.1 at 2015-12-27 14:32:46 -0500
+
+
+Started GET "/assets/react_ujs.self-c42e5ee44bcda6910afca6fb40f99d9963074b3aefe72365ce90c24312e73b2b.js?body=1" for 127.0.0.1 at 2015-12-27 14:32:46 -0500
+
+
+Started GET "/assets/components/article_line.self-6ace272136c40fb715ae9a7e36d6957aeec078d2a9d8dcc2a725b18b3abb5426.js?body=1" for 127.0.0.1 at 2015-12-27 14:32:46 -0500
+
+
+Started GET "/assets/components.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for 127.0.0.1 at 2015-12-27 14:32:46 -0500
+
+
+Started GET "/assets/eventemitter.self-b7e538902dfb3dce50e80598efaa7b435781b7bc8fe936a7aca64a6f2699d411.js?body=1" for 127.0.0.1 at 2015-12-27 14:32:46 -0500
+
+
+Started GET "/assets/flux.self-c2206dc953bbad23c0ee331879560545a4ec58709c89fe78db57a156ec19c08f.js?body=1" for 127.0.0.1 at 2015-12-27 14:32:46 -0500
+
+
+Started GET "/assets/articleapp.self-55fd94261daa72b56bdfe326783b8bf1bfcd1e819030dc57f67c4a15070a6383.js?body=1" for 127.0.0.1 at 2015-12-27 14:32:46 -0500
+
+
+Started GET "/assets/actions/api_actions.self-fbb8f50900aaf76af6a1c35fa017a65adbcc248f379ed334d875ddc5d4c446f6.js?body=1" for 127.0.0.1 at 2015-12-27 14:32:46 -0500
+
+
+Started GET "/assets/dispatcher/dispatcher.self-df4b2118c83e53bfcd046d9391e85547aa2f41e5a424adaa5c8d907b9675777f.js?body=1" for 127.0.0.1 at 2015-12-27 14:32:46 -0500
+
+
+Started GET "/assets/stores/articles.self-ce4b87b5d5cedd253e34585eb25add66a819cd5beed3130a1f3c12f4b2b98e8b.js?body=1" for 127.0.0.1 at 2015-12-27 14:32:46 -0500
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-12-27 14:32:46 -0500
+
+
+Started GET "/assets/application.self-a1a74291c4c48f2f663a025ffa678498d6448b849a2d74c0ca25e39ee192c0a7.js?body=1" for 127.0.0.1 at 2015-12-27 14:32:46 -0500
+
+
+Started GET "/assets/util/api_util.self-470353018f350df7ee95a205afbe3d3132d7e5ce8b028c4e1aa5515f634dcb12.js?body=1" for 127.0.0.1 at 2015-12-27 14:32:46 -0500
+
+
+Started GET "/assets/data/articles.json" for 127.0.0.1 at 2015-12-27 14:32:46 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2015-12-27 14:33:07 -0500
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 85ms (Views: 84.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/articles.self-72a311a6bae236cd38b5c7943e578a9954b5c009fd4012d4af688b741301f38e.css?body=1" for 127.0.0.1 at 2015-12-27 14:33:07 -0500
+
+
+Started GET "/assets/static_pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-12-27 14:33:07 -0500
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2015-12-27 14:33:07 -0500
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for 127.0.0.1 at 2015-12-27 14:33:07 -0500
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for 127.0.0.1 at 2015-12-27 14:33:07 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-12-27 14:33:07 -0500
+
+
+Started GET "/assets/development/react.self-93bc62cb6c7b74ee7e5a2fcf623f3abbd365440bf90eba740c625f159078aa82.js?body=1" for 127.0.0.1 at 2015-12-27 14:33:07 -0500
+
+
+Started GET "/assets/components/article_line.self-6ace272136c40fb715ae9a7e36d6957aeec078d2a9d8dcc2a725b18b3abb5426.js?body=1" for 127.0.0.1 at 2015-12-27 14:33:07 -0500
+
+
+Started GET "/assets/react_ujs.self-c42e5ee44bcda6910afca6fb40f99d9963074b3aefe72365ce90c24312e73b2b.js?body=1" for 127.0.0.1 at 2015-12-27 14:33:07 -0500
+
+
+Started GET "/assets/components/header.self-cab53289a27df193f5ae07a6b08d66a7ff2a6874695be195d0756258ac388ef8.js?body=1" for 127.0.0.1 at 2015-12-27 14:33:07 -0500
+
+
+Started GET "/assets/components.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for 127.0.0.1 at 2015-12-27 14:33:07 -0500
+
+
+Started GET "/assets/components/articles.self-4e125f4a225cd7de3a846bcbeaad4f8fd22f255964b5ee404dd5473886985a8f.js?body=1" for 127.0.0.1 at 2015-12-27 14:33:07 -0500
+
+
+Started GET "/assets/flux.self-c2206dc953bbad23c0ee331879560545a4ec58709c89fe78db57a156ec19c08f.js?body=1" for 127.0.0.1 at 2015-12-27 14:33:07 -0500
+
+
+Started GET "/assets/articleapp.self-55fd94261daa72b56bdfe326783b8bf1bfcd1e819030dc57f67c4a15070a6383.js?body=1" for 127.0.0.1 at 2015-12-27 14:33:07 -0500
+
+
+Started GET "/assets/eventemitter.self-b7e538902dfb3dce50e80598efaa7b435781b7bc8fe936a7aca64a6f2699d411.js?body=1" for 127.0.0.1 at 2015-12-27 14:33:07 -0500
+
+
+Started GET "/assets/dispatcher/dispatcher.self-df4b2118c83e53bfcd046d9391e85547aa2f41e5a424adaa5c8d907b9675777f.js?body=1" for 127.0.0.1 at 2015-12-27 14:33:07 -0500
+
+
+Started GET "/assets/actions/api_actions.self-fbb8f50900aaf76af6a1c35fa017a65adbcc248f379ed334d875ddc5d4c446f6.js?body=1" for 127.0.0.1 at 2015-12-27 14:33:07 -0500
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-12-27 14:33:07 -0500
+
+
+Started GET "/assets/util/api_util.self-470353018f350df7ee95a205afbe3d3132d7e5ce8b028c4e1aa5515f634dcb12.js?body=1" for 127.0.0.1 at 2015-12-27 14:33:07 -0500
+
+
+Started GET "/assets/stores/articles.self-ce4b87b5d5cedd253e34585eb25add66a819cd5beed3130a1f3c12f4b2b98e8b.js?body=1" for 127.0.0.1 at 2015-12-27 14:33:07 -0500
+
+
+Started GET "/assets/application.self-a1a74291c4c48f2f663a025ffa678498d6448b849a2d74c0ca25e39ee192c0a7.js?body=1" for 127.0.0.1 at 2015-12-27 14:33:07 -0500
+
+
+Started GET "/assets/data/articles.json" for 127.0.0.1 at 2015-12-27 14:33:07 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2015-12-27 14:33:11 -0500
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 77ms (Views: 76.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/articles.self-7696e677572706f4916bd5fbfa0568cf558775b89c0433944c291fb44dc8dd2b.css?body=1" for 127.0.0.1 at 2015-12-27 14:33:11 -0500
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for 127.0.0.1 at 2015-12-27 14:33:11 -0500
+
+
+Started GET "/assets/static_pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-12-27 14:33:11 -0500
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2015-12-27 14:33:11 -0500
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for 127.0.0.1 at 2015-12-27 14:33:11 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-12-27 14:33:11 -0500
+
+
+Started GET "/assets/development/react.self-93bc62cb6c7b74ee7e5a2fcf623f3abbd365440bf90eba740c625f159078aa82.js?body=1" for 127.0.0.1 at 2015-12-27 14:33:11 -0500
+
+
+Started GET "/assets/react_ujs.self-c42e5ee44bcda6910afca6fb40f99d9963074b3aefe72365ce90c24312e73b2b.js?body=1" for 127.0.0.1 at 2015-12-27 14:33:11 -0500
+
+
+Started GET "/assets/components/articles.self-4e125f4a225cd7de3a846bcbeaad4f8fd22f255964b5ee404dd5473886985a8f.js?body=1" for 127.0.0.1 at 2015-12-27 14:33:12 -0500
+
+
+Started GET "/assets/components/header.self-cab53289a27df193f5ae07a6b08d66a7ff2a6874695be195d0756258ac388ef8.js?body=1" for 127.0.0.1 at 2015-12-27 14:33:12 -0500
+
+
+Started GET "/assets/components.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for 127.0.0.1 at 2015-12-27 14:33:12 -0500
+
+
+Started GET "/assets/flux.self-c2206dc953bbad23c0ee331879560545a4ec58709c89fe78db57a156ec19c08f.js?body=1" for 127.0.0.1 at 2015-12-27 14:33:12 -0500
+
+
+Started GET "/assets/components/article_line.self-6ace272136c40fb715ae9a7e36d6957aeec078d2a9d8dcc2a725b18b3abb5426.js?body=1" for 127.0.0.1 at 2015-12-27 14:33:12 -0500
+
+
+Started GET "/assets/eventemitter.self-b7e538902dfb3dce50e80598efaa7b435781b7bc8fe936a7aca64a6f2699d411.js?body=1" for 127.0.0.1 at 2015-12-27 14:33:12 -0500
+
+
+Started GET "/assets/articleapp.self-55fd94261daa72b56bdfe326783b8bf1bfcd1e819030dc57f67c4a15070a6383.js?body=1" for 127.0.0.1 at 2015-12-27 14:33:12 -0500
+
+
+Started GET "/assets/actions/api_actions.self-fbb8f50900aaf76af6a1c35fa017a65adbcc248f379ed334d875ddc5d4c446f6.js?body=1" for 127.0.0.1 at 2015-12-27 14:33:12 -0500
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-12-27 14:33:12 -0500
+
+
+Started GET "/assets/dispatcher/dispatcher.self-df4b2118c83e53bfcd046d9391e85547aa2f41e5a424adaa5c8d907b9675777f.js?body=1" for 127.0.0.1 at 2015-12-27 14:33:12 -0500
+
+
+Started GET "/assets/stores/articles.self-ce4b87b5d5cedd253e34585eb25add66a819cd5beed3130a1f3c12f4b2b98e8b.js?body=1" for 127.0.0.1 at 2015-12-27 14:33:12 -0500
+
+
+Started GET "/assets/util/api_util.self-470353018f350df7ee95a205afbe3d3132d7e5ce8b028c4e1aa5515f634dcb12.js?body=1" for 127.0.0.1 at 2015-12-27 14:33:12 -0500
+
+
+Started GET "/assets/application.self-a1a74291c4c48f2f663a025ffa678498d6448b849a2d74c0ca25e39ee192c0a7.js?body=1" for 127.0.0.1 at 2015-12-27 14:33:12 -0500
+
+
+Started GET "/assets/data/articles.json" for 127.0.0.1 at 2015-12-27 14:33:12 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2015-12-27 14:33:23 -0500
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 77ms (Views: 76.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/articles.self-4b37e533e36637478fe73bd3539606eebc396c8d99a1f8c7a02748f1beea3ed0.css?body=1" for 127.0.0.1 at 2015-12-27 14:33:23 -0500
+
+
+Started GET "/assets/static_pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-12-27 14:33:23 -0500
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2015-12-27 14:33:23 -0500
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for 127.0.0.1 at 2015-12-27 14:33:23 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-12-27 14:33:23 -0500
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for 127.0.0.1 at 2015-12-27 14:33:23 -0500
+
+
+Started GET "/assets/development/react.self-93bc62cb6c7b74ee7e5a2fcf623f3abbd365440bf90eba740c625f159078aa82.js?body=1" for 127.0.0.1 at 2015-12-27 14:33:23 -0500
+
+
+Started GET "/assets/react_ujs.self-c42e5ee44bcda6910afca6fb40f99d9963074b3aefe72365ce90c24312e73b2b.js?body=1" for 127.0.0.1 at 2015-12-27 14:33:23 -0500
+
+
+Started GET "/assets/components/article_line.self-6ace272136c40fb715ae9a7e36d6957aeec078d2a9d8dcc2a725b18b3abb5426.js?body=1" for 127.0.0.1 at 2015-12-27 14:33:23 -0500
+
+
+Started GET "/assets/components/articles.self-4e125f4a225cd7de3a846bcbeaad4f8fd22f255964b5ee404dd5473886985a8f.js?body=1" for 127.0.0.1 at 2015-12-27 14:33:23 -0500
+
+
+Started GET "/assets/components/header.self-cab53289a27df193f5ae07a6b08d66a7ff2a6874695be195d0756258ac388ef8.js?body=1" for 127.0.0.1 at 2015-12-27 14:33:23 -0500
+
+
+Started GET "/assets/components.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for 127.0.0.1 at 2015-12-27 14:33:23 -0500
+
+
+Started GET "/assets/eventemitter.self-b7e538902dfb3dce50e80598efaa7b435781b7bc8fe936a7aca64a6f2699d411.js?body=1" for 127.0.0.1 at 2015-12-27 14:33:23 -0500
+
+
+Started GET "/assets/flux.self-c2206dc953bbad23c0ee331879560545a4ec58709c89fe78db57a156ec19c08f.js?body=1" for 127.0.0.1 at 2015-12-27 14:33:23 -0500
+
+
+Started GET "/assets/actions/api_actions.self-fbb8f50900aaf76af6a1c35fa017a65adbcc248f379ed334d875ddc5d4c446f6.js?body=1" for 127.0.0.1 at 2015-12-27 14:33:23 -0500
+
+
+Started GET "/assets/articleapp.self-55fd94261daa72b56bdfe326783b8bf1bfcd1e819030dc57f67c4a15070a6383.js?body=1" for 127.0.0.1 at 2015-12-27 14:33:23 -0500
+
+
+Started GET "/assets/dispatcher/dispatcher.self-df4b2118c83e53bfcd046d9391e85547aa2f41e5a424adaa5c8d907b9675777f.js?body=1" for 127.0.0.1 at 2015-12-27 14:33:23 -0500
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-12-27 14:33:23 -0500
+
+
+Started GET "/assets/stores/articles.self-ce4b87b5d5cedd253e34585eb25add66a819cd5beed3130a1f3c12f4b2b98e8b.js?body=1" for 127.0.0.1 at 2015-12-27 14:33:23 -0500
+
+
+Started GET "/assets/application.self-a1a74291c4c48f2f663a025ffa678498d6448b849a2d74c0ca25e39ee192c0a7.js?body=1" for 127.0.0.1 at 2015-12-27 14:33:23 -0500
+
+
+Started GET "/assets/util/api_util.self-470353018f350df7ee95a205afbe3d3132d7e5ce8b028c4e1aa5515f634dcb12.js?body=1" for 127.0.0.1 at 2015-12-27 14:33:23 -0500
+
+
+Started GET "/assets/data/articles.json" for 127.0.0.1 at 2015-12-27 14:33:24 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2015-12-27 14:33:29 -0500
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 82ms (Views: 81.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/articles.self-5bfbf9d5d2adea5efe0119dd704c1c4813edb78a236b6d3e98dffde613a9d2a5.css?body=1" for 127.0.0.1 at 2015-12-27 14:33:29 -0500
+
+
+Started GET "/assets/static_pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-12-27 14:33:29 -0500
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for 127.0.0.1 at 2015-12-27 14:33:29 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-12-27 14:33:29 -0500
+
+
+Started GET "/assets/react_ujs.self-c42e5ee44bcda6910afca6fb40f99d9963074b3aefe72365ce90c24312e73b2b.js?body=1" for 127.0.0.1 at 2015-12-27 14:33:29 -0500
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2015-12-27 14:33:29 -0500
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for 127.0.0.1 at 2015-12-27 14:33:29 -0500
+
+
+Started GET "/assets/development/react.self-93bc62cb6c7b74ee7e5a2fcf623f3abbd365440bf90eba740c625f159078aa82.js?body=1" for 127.0.0.1 at 2015-12-27 14:33:29 -0500
+
+
+Started GET "/assets/components.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for 127.0.0.1 at 2015-12-27 14:33:29 -0500
+
+
+Started GET "/assets/components/article_line.self-6ace272136c40fb715ae9a7e36d6957aeec078d2a9d8dcc2a725b18b3abb5426.js?body=1" for 127.0.0.1 at 2015-12-27 14:33:29 -0500
+
+
+Started GET "/assets/components/header.self-cab53289a27df193f5ae07a6b08d66a7ff2a6874695be195d0756258ac388ef8.js?body=1" for 127.0.0.1 at 2015-12-27 14:33:29 -0500
+
+
+Started GET "/assets/flux.self-c2206dc953bbad23c0ee331879560545a4ec58709c89fe78db57a156ec19c08f.js?body=1" for 127.0.0.1 at 2015-12-27 14:33:29 -0500
+
+
+Started GET "/assets/components/articles.self-4e125f4a225cd7de3a846bcbeaad4f8fd22f255964b5ee404dd5473886985a8f.js?body=1" for 127.0.0.1 at 2015-12-27 14:33:29 -0500
+
+
+Started GET "/assets/eventemitter.self-b7e538902dfb3dce50e80598efaa7b435781b7bc8fe936a7aca64a6f2699d411.js?body=1" for 127.0.0.1 at 2015-12-27 14:33:29 -0500
+
+
+Started GET "/assets/actions/api_actions.self-fbb8f50900aaf76af6a1c35fa017a65adbcc248f379ed334d875ddc5d4c446f6.js?body=1" for 127.0.0.1 at 2015-12-27 14:33:29 -0500
+
+
+Started GET "/assets/articleapp.self-55fd94261daa72b56bdfe326783b8bf1bfcd1e819030dc57f67c4a15070a6383.js?body=1" for 127.0.0.1 at 2015-12-27 14:33:29 -0500
+
+
+Started GET "/assets/dispatcher/dispatcher.self-df4b2118c83e53bfcd046d9391e85547aa2f41e5a424adaa5c8d907b9675777f.js?body=1" for 127.0.0.1 at 2015-12-27 14:33:29 -0500
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-12-27 14:33:29 -0500
+
+
+Started GET "/assets/stores/articles.self-ce4b87b5d5cedd253e34585eb25add66a819cd5beed3130a1f3c12f4b2b98e8b.js?body=1" for 127.0.0.1 at 2015-12-27 14:33:29 -0500
+
+
+Started GET "/assets/util/api_util.self-470353018f350df7ee95a205afbe3d3132d7e5ce8b028c4e1aa5515f634dcb12.js?body=1" for 127.0.0.1 at 2015-12-27 14:33:29 -0500
+
+
+Started GET "/assets/application.self-a1a74291c4c48f2f663a025ffa678498d6448b849a2d74c0ca25e39ee192c0a7.js?body=1" for 127.0.0.1 at 2015-12-27 14:33:30 -0500
+
+
+Started GET "/assets/data/articles.json" for 127.0.0.1 at 2015-12-27 14:33:30 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2015-12-27 14:33:37 -0500
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 103ms (Views: 100.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/articles.self-87d692652a5e4bc7eaaf65984d72a09e3c5814bb150be2cbfa850328ca14f2a6.css?body=1" for 127.0.0.1 at 2015-12-27 14:33:37 -0500
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2015-12-27 14:33:37 -0500
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for 127.0.0.1 at 2015-12-27 14:33:37 -0500
+
+
+Started GET "/assets/static_pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-12-27 14:33:37 -0500
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for 127.0.0.1 at 2015-12-27 14:33:37 -0500
+
+
+Started GET "/assets/development/react.self-93bc62cb6c7b74ee7e5a2fcf623f3abbd365440bf90eba740c625f159078aa82.js?body=1" for 127.0.0.1 at 2015-12-27 14:33:37 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-12-27 14:33:37 -0500
+
+
+Started GET "/assets/components/articles.self-4e125f4a225cd7de3a846bcbeaad4f8fd22f255964b5ee404dd5473886985a8f.js?body=1" for 127.0.0.1 at 2015-12-27 14:33:37 -0500
+
+
+Started GET "/assets/react_ujs.self-c42e5ee44bcda6910afca6fb40f99d9963074b3aefe72365ce90c24312e73b2b.js?body=1" for 127.0.0.1 at 2015-12-27 14:33:37 -0500
+
+
+Started GET "/assets/flux.self-c2206dc953bbad23c0ee331879560545a4ec58709c89fe78db57a156ec19c08f.js?body=1" for 127.0.0.1 at 2015-12-27 14:33:37 -0500
+
+
+Started GET "/assets/components.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for 127.0.0.1 at 2015-12-27 14:33:37 -0500
+
+
+Started GET "/assets/components/header.self-cab53289a27df193f5ae07a6b08d66a7ff2a6874695be195d0756258ac388ef8.js?body=1" for 127.0.0.1 at 2015-12-27 14:33:37 -0500
+
+
+Started GET "/assets/components/article_line.self-6ace272136c40fb715ae9a7e36d6957aeec078d2a9d8dcc2a725b18b3abb5426.js?body=1" for 127.0.0.1 at 2015-12-27 14:33:37 -0500
+
+
+Started GET "/assets/eventemitter.self-b7e538902dfb3dce50e80598efaa7b435781b7bc8fe936a7aca64a6f2699d411.js?body=1" for 127.0.0.1 at 2015-12-27 14:33:37 -0500
+
+
+Started GET "/assets/articleapp.self-55fd94261daa72b56bdfe326783b8bf1bfcd1e819030dc57f67c4a15070a6383.js?body=1" for 127.0.0.1 at 2015-12-27 14:33:37 -0500
+
+
+Started GET "/assets/dispatcher/dispatcher.self-df4b2118c83e53bfcd046d9391e85547aa2f41e5a424adaa5c8d907b9675777f.js?body=1" for 127.0.0.1 at 2015-12-27 14:33:37 -0500
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-12-27 14:33:37 -0500
+
+
+Started GET "/assets/stores/articles.self-ce4b87b5d5cedd253e34585eb25add66a819cd5beed3130a1f3c12f4b2b98e8b.js?body=1" for 127.0.0.1 at 2015-12-27 14:33:37 -0500
+
+
+Started GET "/assets/actions/api_actions.self-fbb8f50900aaf76af6a1c35fa017a65adbcc248f379ed334d875ddc5d4c446f6.js?body=1" for 127.0.0.1 at 2015-12-27 14:33:37 -0500
+
+
+Started GET "/assets/util/api_util.self-470353018f350df7ee95a205afbe3d3132d7e5ce8b028c4e1aa5515f634dcb12.js?body=1" for 127.0.0.1 at 2015-12-27 14:33:37 -0500
+
+
+Started GET "/assets/application.self-a1a74291c4c48f2f663a025ffa678498d6448b849a2d74c0ca25e39ee192c0a7.js?body=1" for 127.0.0.1 at 2015-12-27 14:33:37 -0500
+
+
+Started GET "/assets/data/articles.json" for 127.0.0.1 at 2015-12-27 14:33:37 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2015-12-27 14:35:05 -0500
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 85ms (Views: 84.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/articles.self-4200643666e5d1e5ee4bfd1a4f7666c2626f3be8a8d2bd5f76a7f7029b4f23b2.css?body=1" for 127.0.0.1 at 2015-12-27 14:35:06 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-12-27 14:35:06 -0500
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2015-12-27 14:35:06 -0500
+
+
+Started GET "/assets/static_pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-12-27 14:35:06 -0500
+
+
+Started GET "/assets/development/react.self-93bc62cb6c7b74ee7e5a2fcf623f3abbd365440bf90eba740c625f159078aa82.js?body=1" for 127.0.0.1 at 2015-12-27 14:35:06 -0500
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for 127.0.0.1 at 2015-12-27 14:35:06 -0500
+
+
+Started GET "/assets/react_ujs.self-c42e5ee44bcda6910afca6fb40f99d9963074b3aefe72365ce90c24312e73b2b.js?body=1" for 127.0.0.1 at 2015-12-27 14:35:06 -0500
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for 127.0.0.1 at 2015-12-27 14:35:06 -0500
+
+
+Started GET "/assets/components/article_line.self-6ace272136c40fb715ae9a7e36d6957aeec078d2a9d8dcc2a725b18b3abb5426.js?body=1" for 127.0.0.1 at 2015-12-27 14:35:06 -0500
+
+
+Started GET "/assets/components/articles.self-4e125f4a225cd7de3a846bcbeaad4f8fd22f255964b5ee404dd5473886985a8f.js?body=1" for 127.0.0.1 at 2015-12-27 14:35:06 -0500
+
+
+Started GET "/assets/components/header.self-cab53289a27df193f5ae07a6b08d66a7ff2a6874695be195d0756258ac388ef8.js?body=1" for 127.0.0.1 at 2015-12-27 14:35:06 -0500
+
+
+Started GET "/assets/flux.self-c2206dc953bbad23c0ee331879560545a4ec58709c89fe78db57a156ec19c08f.js?body=1" for 127.0.0.1 at 2015-12-27 14:35:06 -0500
+
+
+Started GET "/assets/eventemitter.self-b7e538902dfb3dce50e80598efaa7b435781b7bc8fe936a7aca64a6f2699d411.js?body=1" for 127.0.0.1 at 2015-12-27 14:35:06 -0500
+
+
+Started GET "/assets/actions/api_actions.self-fbb8f50900aaf76af6a1c35fa017a65adbcc248f379ed334d875ddc5d4c446f6.js?body=1" for 127.0.0.1 at 2015-12-27 14:35:06 -0500
+
+
+Started GET "/assets/articleapp.self-55fd94261daa72b56bdfe326783b8bf1bfcd1e819030dc57f67c4a15070a6383.js?body=1" for 127.0.0.1 at 2015-12-27 14:35:06 -0500
+
+
+Started GET "/assets/components.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for 127.0.0.1 at 2015-12-27 14:35:06 -0500
+
+
+Started GET "/assets/dispatcher/dispatcher.self-df4b2118c83e53bfcd046d9391e85547aa2f41e5a424adaa5c8d907b9675777f.js?body=1" for 127.0.0.1 at 2015-12-27 14:35:06 -0500
+
+
+Started GET "/assets/util/api_util.self-470353018f350df7ee95a205afbe3d3132d7e5ce8b028c4e1aa5515f634dcb12.js?body=1" for 127.0.0.1 at 2015-12-27 14:35:06 -0500
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-12-27 14:35:06 -0500
+
+
+Started GET "/assets/application.self-a1a74291c4c48f2f663a025ffa678498d6448b849a2d74c0ca25e39ee192c0a7.js?body=1" for 127.0.0.1 at 2015-12-27 14:35:06 -0500
+
+
+Started GET "/assets/stores/articles.self-ce4b87b5d5cedd253e34585eb25add66a819cd5beed3130a1f3c12f4b2b98e8b.js?body=1" for 127.0.0.1 at 2015-12-27 14:35:06 -0500
+
+
+Started GET "/assets/development/react.self-93bc62cb6c7b74ee7e5a2fcf623f3abbd365440bf90eba740c625f159078aa82.js?body=1" for 127.0.0.1 at 2015-12-27 14:35:06 -0500
+
+
+Started GET "/assets/data/articles.json" for 127.0.0.1 at 2015-12-27 14:35:06 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2015-12-27 14:35:14 -0500
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 50ms (Views: 48.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/articles.self-87d692652a5e4bc7eaaf65984d72a09e3c5814bb150be2cbfa850328ca14f2a6.css?body=1" for 127.0.0.1 at 2015-12-27 14:35:14 -0500
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for 127.0.0.1 at 2015-12-27 14:35:14 -0500
+
+
+Started GET "/assets/static_pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-12-27 14:35:14 -0500
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for 127.0.0.1 at 2015-12-27 14:35:14 -0500
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2015-12-27 14:35:14 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-12-27 14:35:14 -0500
+
+
+Started GET "/assets/development/react.self-93bc62cb6c7b74ee7e5a2fcf623f3abbd365440bf90eba740c625f159078aa82.js?body=1" for 127.0.0.1 at 2015-12-27 14:35:14 -0500
+
+
+Started GET "/assets/react_ujs.self-c42e5ee44bcda6910afca6fb40f99d9963074b3aefe72365ce90c24312e73b2b.js?body=1" for 127.0.0.1 at 2015-12-27 14:35:14 -0500
+
+
+Started GET "/assets/components/article_line.self-6ace272136c40fb715ae9a7e36d6957aeec078d2a9d8dcc2a725b18b3abb5426.js?body=1" for 127.0.0.1 at 2015-12-27 14:35:14 -0500
+
+
+Started GET "/assets/flux.self-c2206dc953bbad23c0ee331879560545a4ec58709c89fe78db57a156ec19c08f.js?body=1" for 127.0.0.1 at 2015-12-27 14:35:14 -0500
+
+
+Started GET "/assets/components/articles.self-4e125f4a225cd7de3a846bcbeaad4f8fd22f255964b5ee404dd5473886985a8f.js?body=1" for 127.0.0.1 at 2015-12-27 14:35:14 -0500
+
+
+Started GET "/assets/components.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for 127.0.0.1 at 2015-12-27 14:35:14 -0500
+
+
+Started GET "/assets/components/header.self-cab53289a27df193f5ae07a6b08d66a7ff2a6874695be195d0756258ac388ef8.js?body=1" for 127.0.0.1 at 2015-12-27 14:35:14 -0500
+
+
+Started GET "/assets/eventemitter.self-b7e538902dfb3dce50e80598efaa7b435781b7bc8fe936a7aca64a6f2699d411.js?body=1" for 127.0.0.1 at 2015-12-27 14:35:14 -0500
+
+
+Started GET "/assets/dispatcher/dispatcher.self-df4b2118c83e53bfcd046d9391e85547aa2f41e5a424adaa5c8d907b9675777f.js?body=1" for 127.0.0.1 at 2015-12-27 14:35:14 -0500
+
+
+Started GET "/assets/articleapp.self-55fd94261daa72b56bdfe326783b8bf1bfcd1e819030dc57f67c4a15070a6383.js?body=1" for 127.0.0.1 at 2015-12-27 14:35:14 -0500
+
+
+Started GET "/assets/actions/api_actions.self-fbb8f50900aaf76af6a1c35fa017a65adbcc248f379ed334d875ddc5d4c446f6.js?body=1" for 127.0.0.1 at 2015-12-27 14:35:14 -0500
+
+
+Started GET "/assets/stores/articles.self-ce4b87b5d5cedd253e34585eb25add66a819cd5beed3130a1f3c12f4b2b98e8b.js?body=1" for 127.0.0.1 at 2015-12-27 14:35:14 -0500
+
+
+Started GET "/assets/util/api_util.self-470353018f350df7ee95a205afbe3d3132d7e5ce8b028c4e1aa5515f634dcb12.js?body=1" for 127.0.0.1 at 2015-12-27 14:35:14 -0500
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-12-27 14:35:14 -0500
+
+
+Started GET "/assets/application.self-a1a74291c4c48f2f663a025ffa678498d6448b849a2d74c0ca25e39ee192c0a7.js?body=1" for 127.0.0.1 at 2015-12-27 14:35:14 -0500
+
+
+Started GET "/assets/data/articles.json" for 127.0.0.1 at 2015-12-27 14:35:14 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2015-12-27 14:35:24 -0500
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 82ms (Views: 81.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/articles.self-a2df8eb7ca8861bf3749fa414d427e30310191ff92af8d985db03710a07f2238.css?body=1" for 127.0.0.1 at 2015-12-27 14:35:24 -0500
+
+
+Started GET "/assets/static_pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-12-27 14:35:24 -0500
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for 127.0.0.1 at 2015-12-27 14:35:24 -0500
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2015-12-27 14:35:24 -0500
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for 127.0.0.1 at 2015-12-27 14:35:24 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-12-27 14:35:24 -0500
+
+
+Started GET "/assets/development/react.self-93bc62cb6c7b74ee7e5a2fcf623f3abbd365440bf90eba740c625f159078aa82.js?body=1" for 127.0.0.1 at 2015-12-27 14:35:24 -0500
+
+
+Started GET "/assets/react_ujs.self-c42e5ee44bcda6910afca6fb40f99d9963074b3aefe72365ce90c24312e73b2b.js?body=1" for 127.0.0.1 at 2015-12-27 14:35:24 -0500
+
+
+Started GET "/assets/components/articles.self-4e125f4a225cd7de3a846bcbeaad4f8fd22f255964b5ee404dd5473886985a8f.js?body=1" for 127.0.0.1 at 2015-12-27 14:35:24 -0500
+
+
+Started GET "/assets/components/article_line.self-6ace272136c40fb715ae9a7e36d6957aeec078d2a9d8dcc2a725b18b3abb5426.js?body=1" for 127.0.0.1 at 2015-12-27 14:35:24 -0500
+
+
+Started GET "/assets/components/header.self-cab53289a27df193f5ae07a6b08d66a7ff2a6874695be195d0756258ac388ef8.js?body=1" for 127.0.0.1 at 2015-12-27 14:35:24 -0500
+
+
+Started GET "/assets/components.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for 127.0.0.1 at 2015-12-27 14:35:24 -0500
+
+
+Started GET "/assets/actions/api_actions.self-fbb8f50900aaf76af6a1c35fa017a65adbcc248f379ed334d875ddc5d4c446f6.js?body=1" for 127.0.0.1 at 2015-12-27 14:35:24 -0500
+
+
+Started GET "/assets/dispatcher/dispatcher.self-df4b2118c83e53bfcd046d9391e85547aa2f41e5a424adaa5c8d907b9675777f.js?body=1" for 127.0.0.1 at 2015-12-27 14:35:24 -0500
+
+
+Started GET "/assets/eventemitter.self-b7e538902dfb3dce50e80598efaa7b435781b7bc8fe936a7aca64a6f2699d411.js?body=1" for 127.0.0.1 at 2015-12-27 14:35:24 -0500
+
+
+Started GET "/assets/articleapp.self-55fd94261daa72b56bdfe326783b8bf1bfcd1e819030dc57f67c4a15070a6383.js?body=1" for 127.0.0.1 at 2015-12-27 14:35:24 -0500
+
+
+Started GET "/assets/flux.self-c2206dc953bbad23c0ee331879560545a4ec58709c89fe78db57a156ec19c08f.js?body=1" for 127.0.0.1 at 2015-12-27 14:35:24 -0500
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-12-27 14:35:24 -0500
+
+
+Started GET "/assets/stores/articles.self-ce4b87b5d5cedd253e34585eb25add66a819cd5beed3130a1f3c12f4b2b98e8b.js?body=1" for 127.0.0.1 at 2015-12-27 14:35:24 -0500
+
+
+Started GET "/assets/util/api_util.self-470353018f350df7ee95a205afbe3d3132d7e5ce8b028c4e1aa5515f634dcb12.js?body=1" for 127.0.0.1 at 2015-12-27 14:35:25 -0500
+
+
+Started GET "/assets/application.self-a1a74291c4c48f2f663a025ffa678498d6448b849a2d74c0ca25e39ee192c0a7.js?body=1" for 127.0.0.1 at 2015-12-27 14:35:25 -0500
+
+
+Started GET "/assets/data/articles.json" for 127.0.0.1 at 2015-12-27 14:35:25 -0500
+
+
+Started GET "/assets/data/more-articles.json" for 127.0.0.1 at 2015-12-27 14:35:47 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2015-12-27 14:38:04 -0500
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 87ms (Views: 85.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/articles.self-1096a9fd693eea40a19f18e3923045bd9115f31ace7e28db2fcb62eebb4061b5.css?body=1" for 127.0.0.1 at 2015-12-27 14:38:04 -0500
+
+
+Started GET "/assets/static_pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-12-27 14:38:04 -0500
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for 127.0.0.1 at 2015-12-27 14:38:05 -0500
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2015-12-27 14:38:05 -0500
+
+
+Started GET "/assets/react_ujs.self-c42e5ee44bcda6910afca6fb40f99d9963074b3aefe72365ce90c24312e73b2b.js?body=1" for 127.0.0.1 at 2015-12-27 14:38:05 -0500
+
+
+Started GET "/assets/development/react.self-93bc62cb6c7b74ee7e5a2fcf623f3abbd365440bf90eba740c625f159078aa82.js?body=1" for 127.0.0.1 at 2015-12-27 14:38:05 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-12-27 14:38:05 -0500
+
+
+Started GET "/assets/components/articles.self-4e125f4a225cd7de3a846bcbeaad4f8fd22f255964b5ee404dd5473886985a8f.js?body=1" for 127.0.0.1 at 2015-12-27 14:38:05 -0500
+
+
+Started GET "/assets/components/article_line.self-6ace272136c40fb715ae9a7e36d6957aeec078d2a9d8dcc2a725b18b3abb5426.js?body=1" for 127.0.0.1 at 2015-12-27 14:38:05 -0500
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for 127.0.0.1 at 2015-12-27 14:38:05 -0500
+
+
+Started GET "/assets/components/header.self-cab53289a27df193f5ae07a6b08d66a7ff2a6874695be195d0756258ac388ef8.js?body=1" for 127.0.0.1 at 2015-12-27 14:38:05 -0500
+
+
+Started GET "/assets/components.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for 127.0.0.1 at 2015-12-27 14:38:05 -0500
+
+
+Started GET "/assets/flux.self-c2206dc953bbad23c0ee331879560545a4ec58709c89fe78db57a156ec19c08f.js?body=1" for 127.0.0.1 at 2015-12-27 14:38:05 -0500
+
+
+Started GET "/assets/eventemitter.self-b7e538902dfb3dce50e80598efaa7b435781b7bc8fe936a7aca64a6f2699d411.js?body=1" for 127.0.0.1 at 2015-12-27 14:38:05 -0500
+
+
+Started GET "/assets/actions/api_actions.self-fbb8f50900aaf76af6a1c35fa017a65adbcc248f379ed334d875ddc5d4c446f6.js?body=1" for 127.0.0.1 at 2015-12-27 14:38:05 -0500
+
+
+Started GET "/assets/articleapp.self-55fd94261daa72b56bdfe326783b8bf1bfcd1e819030dc57f67c4a15070a6383.js?body=1" for 127.0.0.1 at 2015-12-27 14:38:05 -0500
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-12-27 14:38:05 -0500
+
+
+Started GET "/assets/dispatcher/dispatcher.self-df4b2118c83e53bfcd046d9391e85547aa2f41e5a424adaa5c8d907b9675777f.js?body=1" for 127.0.0.1 at 2015-12-27 14:38:05 -0500
+
+
+Started GET "/assets/util/api_util.self-470353018f350df7ee95a205afbe3d3132d7e5ce8b028c4e1aa5515f634dcb12.js?body=1" for 127.0.0.1 at 2015-12-27 14:38:05 -0500
+
+
+Started GET "/assets/stores/articles.self-ce4b87b5d5cedd253e34585eb25add66a819cd5beed3130a1f3c12f4b2b98e8b.js?body=1" for 127.0.0.1 at 2015-12-27 14:38:05 -0500
+
+
+Started GET "/assets/application.self-a1a74291c4c48f2f663a025ffa678498d6448b849a2d74c0ca25e39ee192c0a7.js?body=1" for 127.0.0.1 at 2015-12-27 14:38:05 -0500
+
+
+Started GET "/assets/data/articles.json" for 127.0.0.1 at 2015-12-27 14:38:05 -0500
+
+
+Started GET "/assets/data/more-articles.json" for 127.0.0.1 at 2015-12-27 14:38:11 -0500
