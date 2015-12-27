@@ -20,7 +20,7 @@
 
     page: function(num){
       // debugger;
-      if (_articles.slice(0, 100).length === _articles.length && fetched === false){
+      if (_articles.slice(0, 10*num).length === _articles.length && fetched === false){
         ApiUtil.fetchMoreArticles();
         fetched = true;
       }
