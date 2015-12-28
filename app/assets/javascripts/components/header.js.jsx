@@ -18,14 +18,14 @@ var Header = React.createClass({
 
   authorSort: function(){
     if (document.cookie.split('=')[1] !== "author"){
-      ArticleStore.sortNames();
+      ApiActions.sortBy("author");
       document.cookie="sort=author";
     }
   },
 
   wordSort: function(){
     if (document.cookie.split('=')[1] !== "words"){
-      ArticleStore.sortWords();
+      ApiActions.sortBy("words");
       document.cookie="sort=words";
       var x = document.cookie;
     }
@@ -33,7 +33,7 @@ var Header = React.createClass({
 
   timeSort: function(){
     if (document.cookie.split('=')[1] !== "time"){
-      ArticleStore.sortTime();
+      ApiActions.sortBy("time");
       document.cookie="sort=time";
     }
   },

@@ -19,5 +19,12 @@ var ApiActions = window.ApiActions = {
       actionType: "TURN_PAGE",
       page: page
     });
+  },
+
+  sortBy: function(sort){
+    AppDispatcher.dispatch({
+      actionType: "SORT",
+      sort: sort
+    });
   }
 };

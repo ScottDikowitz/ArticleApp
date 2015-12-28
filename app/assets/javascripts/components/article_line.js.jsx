@@ -6,15 +6,30 @@ var ArticleLine = React.createClass({
 
         // milliseconds in an hour
         var hour = 3600000;
+        var minutes = Math.floor(hour / 60);
         var elapsed = Date.now() - date;
-        elapsed = Math.floor(elapsed / hour);
-        if (elapsed > 24){
-          elapsed = Math.floor(elapsed /= 24);
-          elapsed += " days ago";
+        var timeStr;
+        if (elapsed >= hour){
+          elapsed = Math.floor(elapsed / hour);
+          if (elapsed > 24){
+            elapsed = Math.floor(elapsed /= 24);
+            timeStr = " day";
+          }
+          else{
+            timeStr = " hour";
+          }
         }
-        else{
-          elapsed += " hours ago";
+        else if (elapsed < 60000 ){
+          var second = (minutes / 60);
+          elapsed = Math.floor(elapsed /second);
+          timeStr = " second";
         }
+        else {
+          elapsed = Math.floor(elapsed / minutes);
+          timeStr = " minute";
+        }
+
+        elapsed = elapsed === 1 ? elapsed + timeStr + " ago" : elapsed + timeStr + "s ago";
 
     return elapsed;
   },

@@ -5,19 +5,16 @@ var Articles = React.createClass({
   },
 
   _changed: function(){
-
     this.setState({articles: ArticleStore.getPage()});
   },
 
   turnPage: function(){
-    // this.setState({articles: ArticleStore.page(this.state.page + 1)});
     ApiActions.turnPage(this.state.page + 1);
     this.setState({page: this.state.page + 1});
 
   },
 
   componentDidMount: function(){
-    // this.getJson();
     var that = this;
     ArticleStore.addChangeHandler(this._changed);
     ApiUtil.fetchArticles();
@@ -28,13 +25,13 @@ var Articles = React.createClass({
     switch (document.cookie.split('=')[1]) {
 
       case "words":
-        ArticleStore.sortWords();
+        ApiActions.sortBy("words");
         break;
       case "author":
-        ArticleStore.sortNames();
+        ApiActions.sortBy("author");
         break;
       case "time":
-        ArticleStore.sortTime();
+        ApiActions.sortBy("time");
         break;
       }
   },

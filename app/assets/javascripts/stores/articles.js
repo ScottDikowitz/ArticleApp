@@ -28,26 +28,28 @@
       return _articles.slice(0, 10*_page);
     },
 
+    sortMore: function(){
+      switch (document.cookie.split('=')[1]) {
+
+        case "words":
+          ArticleStore.sortWords();
+          break;
+        case "author":
+          ArticleStore.sortNames();
+          break;
+        case "time":
+          ArticleStore.sortTime();
+          break;
+        }
+    },
+
     page: function(num){
-      // debugger;
       _page = num;
       if (_articles.slice(0, 10*num).length === _articles.length && fetched === false){
         ApiUtil.fetchMoreArticles();
         fetched = true;
       }
       return _articles.slice(0, 10*num);
-    },
-
-    sortNames: function(){
-
-      var comparator = function(left, right){
-        if (left[0].profile.first_name < right[0].profile.first_name)
-          return true;
-        else
-          return false;
-      };
-      _articles = ArticleStore.mergeSort(_articles, comparator);
-      ArticleStore.emit(CHANGE_EVENT);
     },
 
     mergeSort: function(arr, comparator){
@@ -63,7 +65,6 @@
         var result = [];
         while (left.length > 0 && right.length > 0) {
 
-          // if (left[0].words >= right[0].words)
           if (comparator(left, right))
             result.push(left.shift());
           else
@@ -75,31 +76,40 @@
       return merge(ArticleStore.mergeSort(left_half, comparator), ArticleStore.mergeSort(right_half, comparator), comparator);
     },
 
-    sortWords: function(){
-
-      var comparator = function(left, right){
-        if (left[0].words >= right[0].words)
-          return true;
-        else
-          return false;
-      };
+    sort: function(sort){
+      var comparator;
+      switch (sort){
+        case "time":
+          comparator = function(left, right){
+            if (Date.parse(left[0].publish_at) >= Date.parse(right[0].publish_at))
+              return true;
+            else
+              return false;
+          };
+          break;
+        case "author":
+          comparator = function(left, right){
+            if (left[0].profile.first_name < right[0].profile.first_name)
+              return true;
+            else
+              return false;
+          };
+          break;
+        case "words":
+          comparator = function(left, right){
+            if (left[0].words >= right[0].words)
+              return true;
+            else
+              return false;
+          };
+          break;
+      }
       _articles = ArticleStore.mergeSort(_articles, comparator);
-      ArticleStore.emit(CHANGE_EVENT);
-    },
-
-    sortTime: function(){
-      var comparator = function(left, right){
-        if (Date.parse(left[0].publish_at) >= Date.parse(right[0].publish_at))
-          return true;
-        else
-          return false;
-      };
-      _articles = ArticleStore.mergeSort(_articles, comparator);
-      ArticleStore.emit(CHANGE_EVENT);
     },
 
     moreArticles: function(articles){
-      _articles = _articles.concat(articles);
+      var sorted = ArticleScore.sortMore(articles);
+      _articles = _articles.concat(sorted || articles);
     },
 
     totalCount: function () {
@@ -125,6 +135,9 @@
           ArticleStore.page(payload.page);
           ArticleStore.emit(CHANGE_EVENT);
           break;
+        case "SORT":
+          ArticleStore.sort(payload.sort);
+          ArticleStore.emit(CHANGE_EVENT);
 
       }
     }),

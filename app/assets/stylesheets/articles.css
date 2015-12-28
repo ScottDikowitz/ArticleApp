@@ -35,7 +35,7 @@ ul {
 .load-more {
   margin: auto;
   display: block;
-  background: green;
+  background: linear-gradient(#B90B2C, #7E2633);
   color: #fff;
   padding: 10px 20px;
   border-radius: 5px;
@@ -44,7 +44,11 @@ ul {
   font-weight: bold;
   text-transform: uppercase;
   cursor: pointer;
+  outline: none;
+}
 
+.load-more:hover {
+  background: linear-gradient(#7E2633, #B90B2C);
 }
 
 body {
@@ -68,18 +72,32 @@ body {
   padding: 20px 59px;
 }
 
+.header-list li:nth-child(2) a:hover {
+  background: linear-gradient(#7E2633, #B90B2C);
+}
+
 .header-list li:nth-child(3) a {
   padding: 20px 25px;
 }
+
+.header-list li:nth-child(3) a:hover {
+  background: linear-gradient(#7E2633, #B90B2C);
+}
+
 
 .header-list li:nth-child(4) {
   border: 0px;
 }
 
 .header-list li:nth-child(4) a {
-  padding: 20px 35px;
+  padding: 20px 38px;
   border-right: 0px;
 }
+
+.header-list li:nth-child(4) a:hover {
+  background: linear-gradient(#7E2633, #B90B2C);
+}
+
 
 .group::after {
   display: block;
