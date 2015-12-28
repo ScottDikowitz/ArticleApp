@@ -1,10 +1,8 @@
 == README
 
-make sure you have rails installed
-
 navigate to project root directory in terminal
 
-run rails server with `rails s`
+run `bundle install` and `rails server`
 
 go to localhost:3000 in your browser
 
