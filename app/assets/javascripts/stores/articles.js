@@ -28,18 +28,15 @@
       return _articles.slice(0, 10*_page);
     },
 
-    sortMore: function(){
+    sortMore: function(articles){
       switch (document.cookie.split('=')[1]) {
 
         case "words":
-          ArticleStore.sortWords();
-          break;
+          return ArticleStore.sort("words", articles);
         case "author":
-          ArticleStore.sortNames();
-          break;
+          return ArticleStore.sort("author", articles);
         case "time":
-          ArticleStore.sortTime();
-          break;
+          return ArticleStore.sort("time", articles);
         }
     },
 
@@ -76,7 +73,7 @@
       return merge(ArticleStore.mergeSort(left_half, comparator), ArticleStore.mergeSort(right_half, comparator), comparator);
     },
 
-    sort: function(sort){
+    sort: function(sort, more){
       var comparator;
       switch (sort){
         case "time":
@@ -104,11 +101,16 @@
           };
           break;
       }
-      _articles = ArticleStore.mergeSort(_articles, comparator);
+      if (more){
+        return ArticleStore.mergeSort(more, comparator);
+      }
+      else{
+        return ArticleStore.mergeSort(_articles, comparator);
+      }
     },
 
     moreArticles: function(articles){
-      var sorted = ArticleScore.sortMore(articles);
+      var sorted = ArticleStore.sortMore(articles);
       _articles = _articles.concat(sorted || articles);
     },
 
@@ -136,7 +138,7 @@
           ArticleStore.emit(CHANGE_EVENT);
           break;
         case "SORT":
-          ArticleStore.sort(payload.sort);
+          _articles = ArticleStore.sort(payload.sort);
           ArticleStore.emit(CHANGE_EVENT);
 
       }
