@@ -44,7 +44,6 @@ var Articles = React.createClass({
     return <div><ul className="grid">
       {this.state.articles.map(function(el){
         return <ArticleLine article={el} key={el.id}/>;
-
       })}
     </ul>
     <button className="load-more" onClick={this.turnPage}>load more</button>

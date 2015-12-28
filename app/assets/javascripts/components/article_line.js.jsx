@@ -42,20 +42,19 @@ var ArticleLine = React.createClass({
     return <li className='article-line group'>
 
       <div className="details">
-
         <div className="title">
           <img className="pic" src={this.props.article.image}/>
-        <a href={this.props.article.url}>{this.props.article.title}</a>
+          <a href={this.props.article.url}>{this.props.article.title}</a>
         </div>
         <div className="author info">
           <a href="#">{this.props.article.profile.first_name + " " + this.props.article.profile.last_name}</a>
-      </div>
-      <div className="words info">
-        <span>{this.props.article.words}</span>
-      </div>
-      <div className="time-ago info">
-        <span>{this.timeAgo(this.props.article.publish_at)}</span>
-      </div>
+        </div>
+        <div className="words info">
+          <span>{this.props.article.words}</span>
+        </div>
+        <div className="time-ago info">
+          <span>{this.timeAgo(this.props.article.publish_at)}</span>
+        </div>
       </div>
     </li>;
   }
