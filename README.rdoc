@@ -1,8 +1,10 @@
 == README
 
-Navigate to project root directory in the console
+make sure you have rails installed
 
-run rails server with rails s
+navigate to project root directory in terminal
+
+run rails server with `rails s`
 
 go to localhost:3000 in your browser
 
