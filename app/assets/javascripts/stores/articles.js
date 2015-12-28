@@ -1,5 +1,5 @@
 (function (root) {
-  var articles = [];
+  var _articles = [];
   var CHANGE_EVENT = "change";
   var fetched = false;
   var _page = 1;
