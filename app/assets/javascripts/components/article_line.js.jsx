@@ -2,6 +2,8 @@ var ArticleLine = React.createClass({
 
   timeAgo: function(time){
 
+    // firefox support
+    time = time.replace(/-/g, "/");
     var date = Date.parse(time);
 
         // milliseconds in an hour
@@ -28,6 +30,7 @@ var ArticleLine = React.createClass({
           elapsed = Math.floor(elapsed / minutes);
           timeStr = " minute";
         }
+        elapsed = elapsed.toString();
 
         elapsed = elapsed === 1 ? elapsed + timeStr + " ago" : elapsed + timeStr + "s ago";
 

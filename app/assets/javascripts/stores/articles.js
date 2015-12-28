@@ -37,6 +37,8 @@
           return ArticleStore.sort("author", articles);
         case "time":
           return ArticleStore.sort("time", articles);
+        default:
+          return articles;
         }
     },
 

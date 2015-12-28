@@ -84,9 +84,17 @@ body {
   background: linear-gradient(#7E2633, #B90B2C);
 }
 
+.header-list li:nth-child(2) {
+  width: 171px;
+}
+
+.header-list li:nth-child(3) {
+  width: 99px;
+}
 
 .header-list li:nth-child(4) {
   border: 0px;
+  width: 154px;
 }
 
 .header-list li:nth-child(4) a {
