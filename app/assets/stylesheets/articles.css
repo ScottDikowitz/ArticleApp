@@ -85,16 +85,16 @@ body {
 }
 
 .header-list li:nth-child(2) {
-  width: 171px;
+  width: 170px;
 }
 
 .header-list li:nth-child(3) {
-  width: 99px;
+  width: 100px;
 }
 
 .header-list li:nth-child(4) {
   border: 0px;
-  width: 154px;
+  width: 155px;
 }
 
 .header-list li:nth-child(4) a {
